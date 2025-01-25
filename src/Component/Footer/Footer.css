@@ -1,0 +1,43 @@
+.about {
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.containerFooterImg {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FooterImg {
+  width: 60%;
+
+
+
+}
+
+.containerFooter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.DespedidaFooter {
+  color: white;
+  width: 70%;
+  text-align: center;
+}
+
+.textDespedidaFooter {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1;
+}

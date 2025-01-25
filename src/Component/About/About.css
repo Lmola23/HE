@@ -1,0 +1,49 @@
+.contact-section {
+  padding: 20px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.contact-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-item svg {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+}
+
+.contact-label {
+  font-weight: bold;
+  margin-right: 5px;
+  color: white;
+}
+
+.contact-value {
+  color: white;
+}

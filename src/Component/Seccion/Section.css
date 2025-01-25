@@ -1,0 +1,49 @@
+.imgInicial {
+  width: 100%;
+  height: auto;
+
+}
+
+.imgFooter {
+  width: 70%;
+  height: auto;
+}
+
+.containerInicial {
+
+  width: 100%;
+  margin: 0;
+  height: auto;
+}
+
+
+.seccion {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  text-align: center;
+  color: white;
+
+}
+
+.lineFooter {
+  width: 100%;
+  height: auto;
+  margin: 20px;
+}
+
+.containerFooter {
+
+  width: 100%;
+  margin: 0;
+  height: auto;
+
+}
+
+.imgline {
+  width: 70%;
+  height: 20px;
+}
