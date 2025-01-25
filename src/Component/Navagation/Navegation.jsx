@@ -69,6 +69,12 @@ function Navegacion() {
 
   const manejarClickElemento = (indice) => {
     setSeccionActiva(indice); // Cambia la sección activa
+
+    // Desplazar a la sección correspondiente
+    const seccion = document.getElementById(elementos[indice]);
+    if (seccion) {
+      seccion.scrollIntoView({ behavior: "smooth" });
+    }
   };
 
   return (
