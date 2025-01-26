@@ -6,5 +6,5 @@ body {
   border-image-repeat: stretch stretch;
   border-image-source: url('assets/borderBody.png');
   border-style: solid;
-  background-color: black;
+  background-image: url('assets/fondo.png');
 }

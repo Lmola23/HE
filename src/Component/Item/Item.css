@@ -39,18 +39,19 @@
   font-size: 2rem;
   text-align: center;
   margin-bottom: 10px;
+  text-shadow: 2px 1px 2px white;
 }
 
 .descripItem {
   margin-top: 0;
   font-size: 1rem;
   line-height: 1;
+  text-shadow: 2px 1px 2px white;
 
 }
 
 .precioItem {
   margin-top: 0;
   font-size: 1.5rem;
-
-
+  text-shadow: 1px 1px 1px white
 }
