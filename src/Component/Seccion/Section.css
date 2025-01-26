@@ -1,6 +1,7 @@
 .imgInicial {
   width: 100%;
   height: auto;
+  margin: 0;
 
 }
 
@@ -26,15 +27,15 @@
   flex-wrap: wrap;
   text-align: center;
   color: white;
-  margin-top: 30px;
-
+  justify-content: center;
+  margin: 0;
 }
 
 .lineFooter {
   width: 100%;
   height: auto;
   margin: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .containerFooter {

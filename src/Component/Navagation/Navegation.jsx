@@ -14,7 +14,7 @@ function Navegacion() {
     "Cafés",
     "Dulces",
     "Hamburguesas",
-    "Sándwich",
+    "Sandwich",
     "HotDog",
   ];
 

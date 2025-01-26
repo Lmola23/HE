@@ -169,7 +169,7 @@ function App() {
         />
       </Seccion>
       <Seccion
-        title="Hog Dog"
+        title="HogDog"
         urlImg={images.inicialHogDog}
         urlImg2={images.footerHogDog}
         Frase="Tienes... Sí, tienes el coraje necesario para ser un verdadero Gryffindor, aunque Slytherin te ayudaría en tu camino a la grandeza, no hay duda."
