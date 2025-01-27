@@ -23,7 +23,7 @@ function App() {
           title="Cafes Expreso"
           Descripcion="Un hechizo de energía en cada sorbo. Déjate revitalizar por su intensidad."
           precio="100$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row"
         />
 
@@ -31,14 +31,14 @@ function App() {
           title="Cafés Cortado"
           Descripcion="Intenso y suave, una mezcla encantadora que hechiza tus sentidos."
           precio="100$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row-reverse"
         />
         <Item
           title="Café Capuchino"
           Descripcion="Espuma suave y sabor encantador, un deleite mágico en cada taza."
           precio="200$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row"
         />
         <Item
@@ -68,7 +68,7 @@ function App() {
           title="Esalada Fria"
           Descripcion="Refrescante y deliciosa, preparada con el toque mágico de los elfos domésticos."
           precio="550$"
-          urlImg={images.espresoCafe}
+          urlImg={images.dulce}
           direccionFlex="column-reverse"
         />
       </Seccion>
@@ -82,7 +82,7 @@ function App() {
           title="Hamburguesa Clasica"
           Descripcion="Jugosa y deliciosa, una obra maestra mágica que satisface hasta los apetitos más voraces."
           precio="400$"
-          urlImg={images.espresoCafe}
+          urlImg={images.Hamburguesa}
           direccionFlex="row-reverse"
 
         />
@@ -90,7 +90,7 @@ function App() {
           title="Hamburguesas Picante"
           Descripcion="Intensamente sabrosa y con un toque de fuego, perfecta para los valientes que buscan una explosión de sabor."
           precio="500$"
-          urlImg={images.espresoCafe}
+          urlImg={images.Hamburguesa}
           direccionFlex="row"
         />
         <Item
@@ -119,7 +119,7 @@ function App() {
           title="Sandwich de Queso"
           Descripcion=". Este sándwich de queso derretido te hará sentir como en un banquete en Hogwarts."
           precio="280$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row-reverse"
 
         />
@@ -127,14 +127,14 @@ function App() {
           title="Sandwich de Jamón"
           Descripcion="Este sándwich de queso derretido te hará sentir como en un banquete en Hogwarts."
           precio="290$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row-reverse"
         />
         <Item
           title="Sandwich de Salchicha"
           Descripcion="Este sándwich de salchicha es perfecto para cualquier mago o bruja en busca de una comida mágica y deliciosa."
           precio="300$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row"
 
         />
@@ -142,28 +142,28 @@ function App() {
           title="Sandwich de Chorizo "
           Descripcion="Un hechizo de sabor ahumado en cada bocado  perfecto para magos y brujas que buscan un toque picante en su comida."
           precio="300$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row"
         />
         <Item
           title="Sandwich de Jamón y Queso"
           Descripcion="Este sándwich es perfecto para satisfacer el hambre de cualquier mago o bruja en sus aventuras diarias."
           precio="400$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row-reverse"
         />
         <Item
           title="Sandwich de Chorizo y Queso"
           Descripcion="Una mezcla mágica de chorizo picante y queso derretido es un verdadero encantamiento de sabor que deleitará a cualquier mago o bruja."
           precio="400$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="row-reverse"
         />
         <Item
           title="Sandwich de Salchicha y Queso"
           Descripcion="Una combinación encantadora de salchicha jugosa y queso derretido. es un verdadero deleite para cualquier mago o bruja en busca de una comida mágica y sabrosa."
           precio="400$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="column-reverse"
 
         />
@@ -178,7 +178,7 @@ function App() {
           title="Hog Dog Harizona"
           Descripcion="Una delicia mágica en cada mordisco. Este hot dog Harizona está lleno de hechizos de sabor que encantará a cualquier mago o bruja hambrienta."
           precio="550$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="column-reverse"
 
         />
@@ -186,14 +186,14 @@ function App() {
           title="Hog Dog Chicago"
           Descripcion="Un festín encantador con un toque urbano. Este hot dog Chicago está lleno de hechizos de sabor que transportarán tus papilas gustativas a una aventura mágica en cada bocado."
           precio="400$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="column-reverse"
         />
         <Item
           title="Hog Dog Carolina "
           Descripcion="Una explosión de sabores sureños en cada bocado. Este hot dog Carolina está encantado con ingredientes mágicos que deleitarán a cualquier mago o bruja aventurera."
           precio="450$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="column-reverse"
 
         />
@@ -201,17 +201,145 @@ function App() {
           title="Hog Dog New York"
           Descripcion="Un clásico urbano con un toque mágico. Este hot dog New York está encantado con ingredientes hechizados que harán que cualquier mago o bruja se sienta en el corazón de la Gran Manzana."
           precio="650$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="column-reverse"
         />
         <Item
           title="Hog Dog Hogwarts"
           Descripcion="Este hot dog Hogwarts está encantado con sabores mágicos que transportarán tus papilas gustativas a un festín en la escuela de magia más famosa del mundo."
           precio="700$"
-          urlImg={images.espresoCafe}
+          urlImg={images.espreso}
           direccionFlex="column-reverse"
         />
 
+      </Seccion>
+      <Seccion
+        title="Entrantes"
+        urlImg={images.inicialEntrante}
+        urlImg2={images.footerEntrante}
+        Frase=" ¿Por qué no seguimos las arañas? ¿Por qué no podemos seguir las mariposas?"
+      >
+        <Item
+          title="Croquetas Tradicionales"
+          Descripcion="Crujientes por fuera y cremosas por dentro, con un toque hechizado."
+          precio="500$"
+          urlImg={images.entranteCroqueta}
+          direccionFlex="row-reverse"
+
+        />
+        <Item
+          title="Entremes de Jamón y Queso"
+          Descripcion="Finísimas lonchas de jamón y queso, perfectas para disfrutar en el Gran Comedor de Hogwarts."
+          precio="1000$"
+          urlImg={images.entranteEntreme}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Tostones Rellenos de Jamón y Queso"
+          Descripcion="Crujientes tostones rellenos de jamón y queso fundido, con un toque de magia."
+          precio="800$"
+          urlImg={images.entranteTostonJamonQueso}
+          direccionFlex="row"
+
+        />
+        <Item
+          title="Tostones Rellenos de Camarón"
+          Descripcion="Crujientes tostones rellenos de camarón fresco, con un toque de magia marina."
+          precio="1000$"
+          urlImg={images.entranteTostonCamaron}
+          direccionFlex="row"
+        />
+        <Item
+          title="Tostones Rellenos de Pulpo"
+          Descripcion="Crujientes tostones rellenos de pulpo tierno, sazonados con un toque de magia marina, directos desde la cocina de las sirenas de Hogwarts."
+          precio="1000$"
+          urlImg={images.entrante}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Chorizo al Cabón"
+          Descripcion="Jugoso chorizo asado al carbón, con un toque mágico de Hogwarts."
+          precio="500$"
+          urlImg={images.entrante}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Brochetas Hawaianas"
+          Descripcion="Jugosos trozos de carne, piña, jamón y queso, asados con un toque mágico."
+          precio="800$"
+          urlImg={images.entranteBrocheta}
+          direccionFlex="row"
+        />
+        <Item
+          title="Rollitos de Jamón y Queso"
+          Descripcion="Delicados rollitos de jamón y queso, envueltos en un hechizo delicioso que te transportará al Gran Comedor de Hogwarts."
+          precio="800$"
+          urlImg={images.entranteRolloJamonQueso}
+          direccionFlex="row"
+
+        />
+        <Item
+          title="Salchipapas"
+          Descripcion="Crujientes papas fritas con trozos de salchicha dorada, bañadas en un hechizo de sabor que te hará sentir como en una fiesta de Hogwarts."
+          precio="1000$"
+          urlImg={images.entranteSalchipapa}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Surtido Tropical"
+          Descripcion="Un festín mágico con croquetas, jamón, queso, galletas saladas y crujientes tostones."
+          precio="1000$"
+          urlImg={images.entranteSurtidoTropical}
+          direccionFlex="column-reverse"
+
+        />
+        <Item
+          title="Completa de la Casa"
+          Descripcion="Un banquete digno de Hogwarts con brochetas hechizadas, tostones rellenos, jamón, queso, croquetas mágicas y crujientes galletas saladas."
+          precio="2800$"
+          urlImg={images.entrante}
+          direccionFlex="column-reverse"
+        />
+
+
+
+      </Seccion>
+
+      <Seccion
+        title="Pizzas"
+        urlImg={images.inicialPizza}
+        urlImg2={images.footerPizza}
+        Frase="La felicidad se puede hallar, incluso en los momentos más oscuros, si somos capaces de usar bien la luz."
+      >
+        <Item
+          title="Cafes Expreso"
+          Descripcion="Un hechizo de energía en cada sorbo. Déjate revitalizar por su intensidad."
+          precio="100$"
+          urlImg={images.espreso}
+          direccionFlex="row"
+        />
+
+        <Item
+          title="Cafés Cortado"
+          Descripcion="Intenso y suave, una mezcla encantadora que hechiza tus sentidos."
+          precio="100$"
+          urlImg={images.espreso}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Café Capuchino"
+          Descripcion="Espuma suave y sabor encantador, un deleite mágico en cada taza."
+          precio="200$"
+          urlImg={images.espreso}
+          direccionFlex="row"
+        />
+        <Item
+          title="Café Bombón"
+          Descripcion="Dulce y cremoso, un verdadero encantamiento para tu paladar."
+          precio="250$"
+          urlImg={images.bombonCafe}
+          direccionFlex="row-reverse"
+        />
       </Seccion>
 
 

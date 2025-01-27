@@ -5,7 +5,7 @@ export default function Seccion({ title, urlImg, urlImg2, Frase, children }) {
   return (
     <div id={title} className="seccion">
       <div className='containerInicial'>
-        <img className='imgInicial' src={urlImg} alt="Sección inicial" />
+        <img className='imgInicial' src={urlImg} alt="" />
         <h1 style={{ fontFamily: "harryPotterFont", fontSize: 50 }}>{title}</h1>
       </div>
       {children}

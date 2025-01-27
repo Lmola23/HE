@@ -11,7 +11,7 @@ export default function Item({ title, Descripcion, precio, urlImg, direccionFlex
           <p className="precioItem">{precio}</p>
         </div>
         <div className="ImgItemContainer">
-          <img className='ImgItem' src={urlImg} alt="imagen" />
+          <img className='ImgItem' src={urlImg} alt="" />
         </div>
       </div>
     </>

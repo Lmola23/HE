@@ -3,8 +3,8 @@ body {
   border-image-slice: 27 27 27 27;
   border-image-width: 15px 15px 15px 15px;
   border-image-outset: 0px 0px 0px 0px;
-  border-image-repeat: stretch stretch;
+  border-image-repeat: round round;
   border-image-source: url('assets/borderBody.png');
   border-style: solid;
-  background-image: url('assets/fondo.png');
+  background-image: url('assets/fondo.jpeg');
 }

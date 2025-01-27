@@ -43,8 +43,8 @@
   width: 100%;
   margin: 0;
   height: auto;
-  margin-top: 100px;
-  text-shadow: 2px 2px 4px white;
+  margin-top: 50px;
+  text-shadow: 2px 2px 4px #333333;
 
 }
 
@@ -56,5 +56,5 @@
 h1 {
   margin: 0;
   margin-bottom: 30px;
-  text-shadow: 2px 2px 4px white;
+  text-shadow: 2px 2px 4px #333333;
 }
