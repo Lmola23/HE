@@ -375,7 +375,7 @@ function App() {
       <Seccion
 
         title="Espaguetis"
-        urlImg={images.inicialEspagueti}
+        urlImg={images.inicial}
         urlImg2={images.footerPizza}
         background={imgFondoSpa}
         Frase="La felicidad se puede hallar, incluso en los momentos más oscuros, si somos capaces de usar bien la luz."
