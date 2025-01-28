@@ -17,7 +17,7 @@
 
 .textInicial {
   color: white;
-  font-size: 6.0rem;
+  font-size: 25vw;
   text-align: center;
   margin: 20px;
 }
@@ -33,7 +33,7 @@
   width: 80%;
   text-align: center;
   margin: auto;
-  font-size: 1.3rem;
+  font-size: 5vw;
   padding: 20px;
 
 }
