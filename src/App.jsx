@@ -4,6 +4,7 @@ import Seccion from './Component/Seccion/Seccion.jsx';
 import Item from './Component/Item/Item.jsx';
 import images from './Utils/Images.js';
 import Footer from './Component/Footer/Footer.jsx';
+import imgFondoSpa from './assets/fondoEspagueti.png';
 import './App.css';
 
 
@@ -371,14 +372,81 @@ function App() {
         />
 
       </Seccion>
+      <Seccion
 
+        title="Espaguetis"
+        urlImg={images.inicialEspagueti}
+        urlImg2={images.footerPizza}
+        background={imgFondoSpa}
+        Frase="La felicidad se puede hallar, incluso en los momentos más oscuros, si somos capaces de usar bien la luz."
+      >
+        <Item
+          title="Pizza Napolitana"
+          Descripcion="Una deliciosa creación traída directamente desde las cocinas mágicas de Hogwarts, perfecta para satisfacer cualquier antojo."
+          precio="250$"
+          urlImg={images.espreso}
+          direccionFlex="row-reverse"
+        />
+
+        <Item
+          title="Pizza de Doble Queso"
+          Descripcion="Una pizza con una doble capa de queso derretido, tan deliciosa que parece salida de las cocinas mágicas de Hogwarts."
+          precio="400$"
+          urlImg={images.espreso}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Pizza de Jamón y Queso"
+          Descripcion="Una pizza con jamón delicioso y queso fundido, preparada con un toque de magia de las cocinas de Hogwarts."
+          precio="450$"
+          urlImg={images.pizza}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Pizza Hawaianas"
+          Descripcion="Una pizza encantada con piña jugosa y jamón delicioso, digna de una fiesta en el Gran Comedor de Hogwarts."
+          precio="500$"
+          urlImg={images.pizza}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Pizza Mixta"
+          Descripcion="Una pizza mágica con una mezcla irresistible de ingredientes frescos, perfecta para disfrutar en el Gran Comedor de Hogwarts."
+          precio="550$"
+          urlImg={images.pizza}
+          direccionFlex="row-reverse"
+        />
+
+        <Item
+          title="Pizza de Salchicha"
+          Descripcion="Una pizza irresistible con salchichas doradas y un toque mágico, perfecta para una cena en el Gran Comedor de Hogwarts."
+          precio="400$"
+          urlImg={images.pizza}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Pizza de Chorizo"
+          Descripcion="Una pizza irresistible con chorizo jugoso y un toque mágico, perfecta para disfrutar una velada en el Gran Comedor de Hogwarts."
+          precio="450$"
+          urlImg={images.espreso}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Pizza de Camarones"
+          Descripcion="Una pizza deliciosa con camarones frescos y un toque mágico de los mares, perfecta para una cena en el Gran Comedor de Hogwarts."
+          precio="500$"
+          urlImg={images.pizza}
+          direccionFlex="row-reverse"
+        />
+
+      </Seccion>
 
 
       <Footer />
 
 
 
-    </div>
+    </div >
   );
 }
 
