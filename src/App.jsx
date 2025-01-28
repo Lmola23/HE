@@ -5,6 +5,7 @@ import Item from './Component/Item/Item.jsx';
 import images from './Utils/Images.js';
 import Footer from './Component/Footer/Footer.jsx';
 import imgFondoSpa from './assets/fondoEspagueti.png';
+import './styles/fonts.css';
 import './App.css';
 
 
@@ -374,12 +375,13 @@ function App() {
       </Seccion>
       <Seccion
 
-        title="Espaguetis"
-        urlImg={images.inicial}
+
+        urlImg={images.inicialEspagueti}
         urlImg2={images.footerPizza}
         background={imgFondoSpa}
         Frase="La felicidad se puede hallar, incluso en los momentos más oscuros, si somos capaces de usar bien la luz."
       >
+        <h1 className='h1Spag' style={{ fontFamily: "harryPotterFont" }}>Espagueti</h1>
         <Item
           title="Pizza Napolitana"
           Descripcion="Una deliciosa creación traída directamente desde las cocinas mágicas de Hogwarts, perfecta para satisfacer cualquier antojo."
