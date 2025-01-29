@@ -385,7 +385,7 @@ function App() {
         <h1 className='h1Spag' style={{ fontFamily: "harryPotterFont" }}>Espagueti</h1>
         <Item
           title="Espagueti Napolitano"
-          Descripcion="Un plato digno de las cocinas mágicas de Hogwarts, que combina sabores exquisitos y un toque de encanto. Perfecto para disfrutar en una cena encantadora que te transportará a un mundo de magia y sabor."
+          Descripcion="Un plato digno de las cocinas mágicas de Hogwarts, que combina sabores exquisitos y un toque de encanto."
           precio="250$"
           urlImg={images.espreso}
           direccionFlex="row-reverse"
@@ -444,6 +444,52 @@ function App() {
 
 
       </Seccion>
+      <Seccion
+        title="Batidos"
+        urlImg={images.inicialBatido}
+        urlImg2={images.footerBatido}
+        Frase="No importa que seas una rata tonta, Weasley. La Gran Escalinata no distingue entre magos de sangre pura y traidores."
+      >
+        <Item
+          title="Batido de Chocolate"
+          Descripcion="Una bebida mágica y cremosa que te transportará a un dulce momento en el Gran Comedor de Hogwarts."
+          precio="400$"
+          urlImg={images.espreso}
+          direccionFlex="column-reverse"
+
+        />
+        <Item
+          title="Batido de fresa"
+          Descripcion="Una bebida mágica y refrescante, ideal para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
+          precio="450$"
+          urlImg={images.batidoFresa}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Batido de vainilla "
+          Descripcion="Una bebida mágica y suave, ideal para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
+          precio="450$"
+          urlImg={images.espreso}
+          direccionFlex="column-reverse"
+
+        />
+        <Item
+          title="Malta Condensada"
+          Descripcion="Una bebida mágica y rica en sabor, perfecta para disfrutar un momento dulce en el Gran Comedor de Hogwarts."
+          precio="550$"
+          urlImg={images.espreso}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Frapé Hogwarts"
+          Descripcion="Una bebida mágica que combina los sabores de chocolate, vainilla y fresa, perfecta para disfrutar un momento encantador en el Gran Comedor de Hogwarts."
+          precio="500$"
+          urlImg={images.espreso}
+          direccionFlex="column-reverse"
+        />
+
+      </Seccion>
+
 
 
       <Footer />

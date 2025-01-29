@@ -20,13 +20,14 @@
 
 .menu-item {
   width: 80px;
-  height: 100px;
+  height: auto;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  margin-top: 20px;
   text-align: center;
   font-size: 6vw;
   position: relative;
@@ -38,11 +39,33 @@
 
 .active-indicator {
   position: absolute;
-  bottom: 25px;
+  bottom: 0px;
   left: 50%;
   transform: translateX(-50%);
   width: 100%;
   height: 1px;
   background-color: white;
   transition: width 0.3s ease;
+}
+
+.menu-placeholder {
+  visibility: hidden;
+  height: 50px;
+  /* Altura del menú original para evitar saltos */
+}
+
+.sticky-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-image-slice: 27 27 27 27;
+  border-image-width: 10px 10px 10px 10px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url('../../assets/borderBody.png');
 }

@@ -5,18 +5,14 @@ import './../../styles/fonts.css';
 function Navegacion() {
   const [arrastrando, setArrastrando] = useState(false);
   const [seccionActiva, setSeccionActiva] = useState(0);
+  const [isSticky, setIsSticky] = useState(false);
   const inicioX = useRef(0);
   const traduccionActualX = useRef(0);
   const traduccionPreviaX = useRef(0);
   const referenciaMenu = useRef(null);
+  const referenciaNavegacion = useRef(null);
 
-  const elementos = [
-    "Cafés",
-    "Dulces",
-    "Hamburguesas",
-    "Sandwich",
-    "HotDog",
-  ];
+  const elementos = ["Cafés", "Dulces", "Hamburguesas", "Sandwich", "HotDog"];
 
   const elementosVisibles = 4;
   const anchoElemento = 160;
@@ -32,6 +28,21 @@ function Navegacion() {
     }
     traduccionActualX.current = maximoTraduccionX;
     traduccionPreviaX.current = maximoTraduccionX;
+  }, []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsSticky(!entry.isIntersecting);
+      },
+      { root: null, threshold: 0.1 }
+    );
+
+    if (referenciaNavegacion.current) {
+      observer.observe(referenciaNavegacion.current);
+    }
+
+    return () => observer.disconnect();
   }, []);
 
   const manejarTactoAbajo = (e) => {
@@ -57,7 +68,6 @@ function Navegacion() {
 
   const manejarTactoArriba = () => {
     if (!arrastrando) return;
-
     setArrastrando(false);
     traduccionPreviaX.current = traduccionActualX.current;
     referenciaMenu.current.style.transition = "transform 0.3s ease";
@@ -68,9 +78,7 @@ function Navegacion() {
   };
 
   const manejarClickElemento = (indice) => {
-    setSeccionActiva(indice); // Cambia la sección activa
-
-    // Desplazar a la sección correspondiente
+    setSeccionActiva(indice);
     const seccion = document.getElementById(elementos[indice]);
     if (seccion) {
       seccion.scrollIntoView({ behavior: "smooth" });
@@ -78,30 +86,46 @@ function Navegacion() {
   };
 
   return (
-    <div className="slider-menu">
-      <div
-        className="menu-container"
-        style={{ width: `${anchoContenedor}px` }}
-        onTouchStart={manejarTactoAbajo}
-        onTouchMove={manejarMovimientoTacto}
-        onTouchEnd={manejarTactoArriba}
-        onTouchCancel={manejarTactoSale}
-      >
-        <div className="menu" ref={referenciaMenu}>
-          {elementos.map((elemento, indice) => (
-            <div
-              key={indice}
-              className={`menu-item ${indice === seccionActiva ? "active" : ""}`}
-              style={{ marginRight: `${espacio}px`, fontFamily: "harryPotterFont" }}
-              onClick={() => manejarClickElemento(indice)}
-            >
-              {elemento}
-              {indice === seccionActiva && <div className="active-indicator"></div>}
-            </div>
-          ))}
+    <>
+      {/* Menú original para el observer */}
+      <div ref={referenciaNavegacion} className="menu-placeholder">
+        <div className="menu-container">
+          <div className="menu">
+            {elementos.map((elemento, indice) => (
+              <div key={indice} className="menu-item">
+                {elemento}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
-    </div>
+
+      {/* Menú que se fija al hacer scroll */}
+      <div className={`slider-menu ${isSticky ? "sticky-menu" : ""}`}>
+        <div
+          className="menu-container"
+          style={{ width: `${anchoContenedor}px` }}
+          onTouchStart={manejarTactoAbajo}
+          onTouchMove={manejarMovimientoTacto}
+          onTouchEnd={manejarTactoArriba}
+          onTouchCancel={manejarTactoSale}
+        >
+          <div className="menu" ref={referenciaMenu}>
+            {elementos.map((elemento, indice) => (
+              <div
+                key={indice}
+                className={`menu-item ${indice === seccionActiva ? "active" : ""}`}
+                style={{ marginRight: `${espacio}px`, fontFamily: "harryPotterFont" }}
+                onClick={() => manejarClickElemento(indice)}
+              >
+                {elemento}
+                {indice === seccionActiva && <div className="active-indicator"></div>}
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 

@@ -1,5 +1,5 @@
-import { FaPhone, FaFacebook, FaInstagram } from 'react-icons/fa';
-import './About.css'
+import { FaPhone, FaFacebook, FaInstagram, FaMapMarkerAlt } from 'react-icons/fa';
+import './About.css';
 import './../../styles/fonts.css';
 
 function About() {
@@ -7,6 +7,7 @@ function About() {
     { icon: <FaPhone />, label: "Teléfono", value: "+123 456 789" },
     { icon: <FaFacebook />, label: "Facebook", value: "HogwartsExpress" },
     { icon: <FaInstagram />, label: "Instagram", value: "@Hogwarts" },
+    { icon: <FaMapMarkerAlt />, label: "Dirección", value: "Calle Mágica 9 ¾, Londres" },
   ];
 
   return (
@@ -23,6 +24,7 @@ function About() {
       </ul>
     </div>
   );
-};
+}
 
 export default About;
+
