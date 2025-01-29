@@ -318,7 +318,7 @@ function App() {
           Descripcion="Una deliciosa creación traída directamente desde las cocinas mágicas de Hogwarts, perfecta para satisfacer cualquier antojo."
           precio="250$"
           urlImg={images.espreso}
-          direccionFlex="row-reverse"
+          direccionFlex="row"
         />
 
         <Item
@@ -340,14 +340,14 @@ function App() {
           Descripcion="Una pizza encantada con piña jugosa y jamón delicioso, digna de una fiesta en el Gran Comedor de Hogwarts."
           precio="500$"
           urlImg={images.pizzaHawaina}
-          direccionFlex="row"
+          direccionFlex="row-reverse"
         />
         <Item
           title="Pizza Mixta"
           Descripcion="Una pizza mágica con una mezcla irresistible de ingredientes frescos, perfecta para disfrutar en el Gran Comedor de Hogwarts."
           precio="550$"
           urlImg={images.pizzaMixta}
-          direccionFlex="row-reverse"
+          direccionFlex="row"
         />
 
         <Item
@@ -369,7 +369,7 @@ function App() {
           Descripcion="Una pizza deliciosa con camarones frescos y un toque mágico de los mares, perfecta para una cena en el Gran Comedor de Hogwarts."
           precio="500$"
           urlImg={images.pizzaCamaron}
-          direccionFlex="row"
+          direccionFlex="row-reverse"
         />
 
       </Seccion>
@@ -377,69 +377,71 @@ function App() {
 
 
         urlImg={images.inicialEspagueti}
-        urlImg2={images.footerPizza}
+        urlImg2={images.footerEspagueti}
         background={imgFondoSpa}
-        Frase="La felicidad se puede hallar, incluso en los momentos más oscuros, si somos capaces de usar bien la luz."
+        Frase="No hay bien y mal, solo hay poder y aquellos demasiado débiles para buscarlo"
+
       >
         <h1 className='h1Spag' style={{ fontFamily: "harryPotterFont" }}>Espagueti</h1>
         <Item
-          title="Pizza Napolitana"
-          Descripcion="Una deliciosa creación traída directamente desde las cocinas mágicas de Hogwarts, perfecta para satisfacer cualquier antojo."
+          title="Espagueti Napolitano"
+          Descripcion="Un plato digno de las cocinas mágicas de Hogwarts, que combina sabores exquisitos y un toque de encanto. Perfecto para disfrutar en una cena encantadora que te transportará a un mundo de magia y sabor."
           precio="250$"
           urlImg={images.espreso}
           direccionFlex="row-reverse"
         />
 
         <Item
-          title="Pizza de Doble Queso"
-          Descripcion="Una pizza con una doble capa de queso derretido, tan deliciosa que parece salida de las cocinas mágicas de Hogwarts."
-          precio="400$"
+          title="Espagueti Doble Queso"
+          Descripcion="Un plato mágico y cremoso, perfecto para una experiencia encantadora al estilo Hogwarts."
+          precio="300$"
           urlImg={images.espreso}
           direccionFlex="row-reverse"
         />
         <Item
-          title="Pizza de Jamón y Queso"
-          Descripcion="Una pizza con jamón delicioso y queso fundido, preparada con un toque de magia de las cocinas de Hogwarts."
+          title="Espagueti Jamón y Queso"
+          Descripcion="Un plato encantador con sabores irresistibles, ideal para una cena mágica al estilo Hogwarts."
+          precio="400$"
+          urlImg={images.pizza}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Espagueti Hawaianas"
+          Descripcion="Una pizza encantada con piña jugosa y jamón delicioso, digna de una fiesta en el Gran Comedor de Hogwarts."
           precio="450$"
           urlImg={images.pizza}
           direccionFlex="row-reverse"
         />
         <Item
-          title="Pizza Hawaianas"
-          Descripcion="Una pizza encantada con piña jugosa y jamón delicioso, digna de una fiesta en el Gran Comedor de Hogwarts."
+          title="Expagueti Mixto"
+          Descripcion="Un plato mágico que combina sabores exquisitos, perfecto para disfrutar una experiencia encantadora al estilo Hogwarts."
           precio="500$"
-          urlImg={images.pizza}
-          direccionFlex="row-reverse"
-        />
-        <Item
-          title="Pizza Mixta"
-          Descripcion="Una pizza mágica con una mezcla irresistible de ingredientes frescos, perfecta para disfrutar en el Gran Comedor de Hogwarts."
-          precio="550$"
           urlImg={images.pizza}
           direccionFlex="row-reverse"
         />
 
         <Item
-          title="Pizza de Salchicha"
-          Descripcion="Una pizza irresistible con salchichas doradas y un toque mágico, perfecta para una cena en el Gran Comedor de Hogwarts."
+          title="Espagueti de Salchicha"
+          Descripcion="Un plato encantador con salchichas jugosas, ideal para una experiencia mágica al estilo Hogwarts."
           precio="400$"
           urlImg={images.pizza}
           direccionFlex="row-reverse"
         />
         <Item
-          title="Pizza de Chorizo"
-          Descripcion="Una pizza irresistible con chorizo jugoso y un toque mágico, perfecta para disfrutar una velada en el Gran Comedor de Hogwarts."
+          title="Espagueti de Chorizo"
+          Descripcion="Un plato mágico con chorizo jugoso, perfecto para disfrutar una experiencia encantadora al estilo Hogwarts."
           precio="450$"
           urlImg={images.espreso}
           direccionFlex="row-reverse"
         />
         <Item
-          title="Pizza de Camarones"
-          Descripcion="Una pizza deliciosa con camarones frescos y un toque mágico de los mares, perfecta para una cena en el Gran Comedor de Hogwarts."
-          precio="500$"
+          title="Espagueti de Camarones"
+          Descripcion="Un plato mágico con camarones frescos y deliciosos, perfecto para disfrutar una cena encantadora al estilo Hogwarts."
+          precio="550$"
           urlImg={images.pizza}
           direccionFlex="row-reverse"
         />
+
 
       </Seccion>
 

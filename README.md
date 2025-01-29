@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEAe
 <<<<<<< HEAD
 # MenuHE
 Menu con tematica harry potter para el bar Howarst Esppress

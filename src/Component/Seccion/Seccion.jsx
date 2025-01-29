@@ -11,7 +11,7 @@ export default function Seccion({ title, urlImg, urlImg2, Frase, children, backg
       </div>
       {children}
       <div className='containerFooter'>
-        <img className='imgFooter' src={urlImg2} alt="Sección footer" />
+        <img className='imgFooter' src={urlImg2} alt="" />
         <p style={{ fontFamily: "harryPotterFont", fontSize: 30, marginRight: 20, marginLeft: 20, lineHeight: 1 }}>{Frase}</p>
       </div>
     </div >
