@@ -375,14 +375,13 @@ function App() {
       </Seccion>
       <Seccion
 
-
+        title={"Espaguetis"}
         urlImg={images.inicialEspagueti}
         urlImg2={images.footerEspagueti}
         background={imgFondoSpa}
         Frase="No hay bien y mal, solo hay poder y aquellos demasiado débiles para buscarlo"
 
       >
-        <h1 className='h1Spag' style={{ fontFamily: "harryPotterFont" }}>Espagueti</h1>
         <Item
           title="Espagueti Napolitano"
           Descripcion="Un plato digno de las cocinas mágicas de Hogwarts, que combina sabores exquisitos y un toque de encanto."
@@ -489,6 +488,43 @@ function App() {
         />
 
       </Seccion>
+      <Seccion
+        title="Malteadas"
+        urlImg={images.inicialMalteada}
+        urlImg2={images.footerCafe}
+        Frase="La felicidad se puede hallar, incluso en los momentos más oscuros, si somos capaces de usar bien la luz."
+      >
+        <Item
+          title="Malteada de Fresa"
+          Descripcion="Una bebida mágica, refrescante y llena de sabor, perfecta para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
+          precio="600$"
+          urlImg={images.malteadaFresa}
+          direccionFlex="row"
+        />
+
+        <Item
+          title="Malteada de vainilla"
+          Descripcion="Una bebida mágica, suave y cremosa, perfecta para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
+          precio="550$"
+          urlImg={images.malteadaVainilla}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Malteada de chocolate"
+          Descripcion="Una bebida celestial que combina la magia del chocolate con una suavidad increíble, perfecta para deleitarse en el Gran Comedor de Hogwarts."
+          precio="600$"
+          urlImg={images.malteadaChocolate}
+          direccionFlex="row"
+        />
+        <Item
+          title="Malteada de Nutela"
+          Descripcion="Una bebida mágica y decadente, que combina la rica suavidad de la Nutella, perfecta para deleitarse en el Gran Comedor de Hogwarts."
+          precio="900$"
+          urlImg={images.bombon}
+          direccionFlex="row-reverse"
+        />
+      </Seccion>
+
 
 
 

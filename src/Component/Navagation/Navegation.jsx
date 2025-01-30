@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Navegation.css";
-import './../../styles/fonts.css';
+import "./../../styles/fonts.css";
 
 function Navegacion() {
   const [arrastrando, setArrastrando] = useState(false);
@@ -12,7 +12,7 @@ function Navegacion() {
   const referenciaMenu = useRef(null);
   const referenciaNavegacion = useRef(null);
 
-  const elementos = ["Cafés", "Dulces", "Hamburguesas", "Sandwich", "HotDog"];
+  const elementos = ["Cafés", "Dulces", "Hamburguesas", "Sandwich", "HotDog", "Sandwich", "Entrantes", "Pizzas", "Espaquetis", "Batidos", "Malteadas"];
 
   const elementosVisibles = 4;
   const anchoElemento = 160;
@@ -28,6 +28,39 @@ function Navegacion() {
     }
     traduccionActualX.current = maximoTraduccionX;
     traduccionPreviaX.current = maximoTraduccionX;
+  }, []);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            const indice = elementos.indexOf(id);
+            if (indice !== -1) {
+              setSeccionActiva(indice);
+
+              // Translada el menú para que la sección activa quede centrada
+              const nuevaTraduccionX = -(indice * (anchoElemento + espacio)) + anchoContenedor / 2 - anchoElemento / 2;
+              traduccionActualX.current = Math.min(maximoTraduccionX, Math.max(minimoTraduccionX, nuevaTraduccionX));
+              if (referenciaMenu.current) {
+                referenciaMenu.current.style.transform = `translateX(${traduccionActualX.current}px)`;
+              }
+            }
+          }
+        });
+      },
+      { threshold: 0.6 } // El 60% de la sección debe estar visible para considerarla activa
+    );
+
+    elementos.forEach((id) => {
+      const seccion = document.getElementById(id);
+      if (seccion) {
+        observer.observe(seccion);
+      }
+    });
+
+    return () => observer.disconnect();
   }, []);
 
   useEffect(() => {
