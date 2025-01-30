@@ -12,7 +12,7 @@ function Navegacion() {
   const referenciaMenu = useRef(null);
   const referenciaNavegacion = useRef(null);
 
-  const elementos = ["Cafés", "Dulces", "Hamburguesas", "Sandwich", "HotDog", "Sandwich", "Entrantes", "Pizzas", "Espaquetis", "Batidos", "Malteadas"];
+  const elementos = ["Cafés", "Dulces", "Hamburguesas", "Sandwich", "HotDog"];
 
   const elementosVisibles = 4;
   const anchoElemento = 160;
@@ -122,7 +122,7 @@ function Navegacion() {
     <>
       {/* Menú original para el observer */}
       <div ref={referenciaNavegacion} className="menu-placeholder">
-        <div className="menu-container">
+        <div className="menu-container" style={{ width: "100%" }}>
           <div className="menu">
             {elementos.map((elemento, indice) => (
               <div key={indice} className="menu-item">
@@ -134,7 +134,7 @@ function Navegacion() {
       </div>
 
       {/* Menú que se fija al hacer scroll */}
-      <div className={`slider-menu ${isSticky ? "sticky-menu" : ""}`}>
+      <div className={`slider-menu ${isSticky ? "sticky-menu" : ""}`} style={{ width: "100%" }}>
         <div
           className="menu-container"
           style={{ width: `${anchoContenedor}px` }}
@@ -143,7 +143,7 @@ function Navegacion() {
           onTouchEnd={manejarTactoArriba}
           onTouchCancel={manejarTactoSale}
         >
-          <div className="menu" ref={referenciaMenu}>
+          <div className="menu" ref={referenciaMenu} style={{ width: "100%" }}>
             {elementos.map((elemento, indice) => (
               <div
                 key={indice}
@@ -163,4 +163,3 @@ function Navegacion() {
 }
 
 export default Navegacion;
-
