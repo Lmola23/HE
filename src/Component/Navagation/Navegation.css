@@ -6,8 +6,8 @@
 
 .menu-container {
   overflow: hidden;
-  justify-content: center;
-  margin: auto;
+  justify-content: space-around;
+  margin: 20px;
   text-align: center;
 }
 
@@ -23,11 +23,11 @@
   height: auto;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin: auto;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-left: 50px;
+
   text-align: center;
   font-size: 8vw;
   position: relative;
