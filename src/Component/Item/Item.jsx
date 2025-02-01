@@ -6,7 +6,7 @@ export default function Item({ title, Descripcion, precio, urlImg, direccionFlex
     <>
       <div className="containerItem" style={{ flexDirection: direccionFlex, fontFamily: "harryPotterFont" }}>
         <div className="descripContainer">
-          <h1 className="titleItem" >{title}</h1>
+          <h1 className="titleItem" translate='no' >{title}</h1>
           <p className="descripItem" >{Descripcion}</p>
           <p className="precioItem">{precio}</p>
         </div>
