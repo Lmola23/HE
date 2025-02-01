@@ -1,3 +1,7 @@
+* {
+  translate: "no";
+}
+
 body {
   border-image-slice: 27 27 27 27;
   border-image-width: 10px 10px 10px 10px;

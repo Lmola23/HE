@@ -32,7 +32,7 @@ function App() {
         <Item
           title="Cafés Cortado"
           Descripcion="Intenso y suave, una mezcla encantadora que hechiza tus sentidos."
-          precio="100$"
+          precio="150$"
           urlImg={images.espreso}
           direccionFlex="row-reverse"
         />
@@ -82,7 +82,7 @@ function App() {
       >
         <Item
           title="Hamburguesa Clasica"
-          Descripcion="Jugosa y deliciosa, una obra maestra mágica que satisface hasta los apetitos más voraces."
+          Descripcion="Jugosa y deliciosa,Carne, vegetales y salsas, una obra maestra mágica que satisface hasta los apetitos más voraces."
           precio="400$"
           urlImg={images.Hamburguesa}
           direccionFlex="row-reverse"
@@ -90,25 +90,33 @@ function App() {
         />
         <Item
           title="Hamburguesas Picante"
-          Descripcion="Intensamente sabrosa y con un toque de fuego, perfecta para los valientes que buscan una explosión de sabor."
+          Descripcion="Intensamente sabrosa,Carne, vegetales, queso, salsas, picante y con un toque de fuego, perfecta para los valientes que buscan una explosión de sabor."
           precio="500$"
           urlImg={images.Hamburguesa}
           direccionFlex="row"
         />
         <Item
+          title="Hamburguesas de Jamón"
+          Descripcion="Intensamente sabrosa,Carne, vegetales, jamón y salsas perfecta  explosión de sabor."
+          precio="500$"
+          urlImg={images.Hamburguesa}
+          direccionFlex="row-reverse"
+        />
+
+        <Item
           title="Hamburguesa de Queso"
           Descripcion="Deliciosamente derretida y llena de encanto, cada bocado es un hechizo de sabor que te transportará al mundo mágico."
           precio="500$"
           urlImg={images.hamburguesaQueso}
-          direccionFlex="row-reverse"
+          direccionFlex="row"
 
         />
         <Item
           title="SuperBurguer"
-          Descripcion="Deliciosamente derretida y llena de encanto, cada bocado es un hechizo de sabor que te transportará al mundo mágico."
+          Descripcion="Deliciosamente derretida con oble carne, vegetales, queso, jamón y salsas, acompañado con vianda frita y llena de encanto, cada bocado es un hechizo de sabor que te transportará al mundo mágico."
           precio="1200$"
           urlImg={images.hamburguesaSuper}
-          direccionFlex="row"
+          direccionFlex="row-reverse"
         />
       </Seccion>
       <Seccion
@@ -177,38 +185,47 @@ function App() {
         Frase="Tienes... Sí, tienes el coraje necesario para ser un verdadero Gryffindor, aunque Slytherin te ayudaría en tu camino a la grandeza, no hay duda."
       >
         <Item
-          title="Hog Dog Harizona"
-          Descripcion="Una delicia mágica en cada mordisco. Este hot dog Harizona está lleno de hechizos de sabor que encantará a cualquier mago o bruja hambrienta."
+          title="Hot Dog Clásico"
+          Descripcion="Perro calient, ketchup, mayonesa y mostaza ."
+          precio="400$"
+          urlImg={images.espreso}
+          direccionFlex="column-reverse"
+
+        />
+
+        <Item
+          title="Hot Dog Harizona"
+          Descripcion="Perro caliente envuelto en jamón, vegetales picoteados, mayonesa, salsas y mostaza."
           precio="550$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
 
         />
         <Item
-          title="Hog Dog Chicago"
-          Descripcion="Un festín encantador con un toque urbano. Este hot dog Chicago está lleno de hechizos de sabor que transportarán tus papilas gustativas a una aventura mágica en cada bocado."
+          title="Hot Dog Chicago"
+          Descripcion="Perro caliente con vegetales picoteados, mayonesa, ketchup y mostaza."
           precio="400$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
         />
         <Item
-          title="Hog Dog Carolina "
-          Descripcion="Una explosión de sabores sureños en cada bocado. Este hot dog Carolina está encantado con ingredientes mágicos que deleitarán a cualquier mago o bruja aventurera."
+          title="Hot Dog Carolina "
+          Descripcion="Perro caliente, vegetales picoteados, con salsa picante, salsas, mayonesa y mostaza."
           precio="450$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
 
         />
         <Item
-          title="Hog Dog New York"
-          Descripcion="Un clásico urbano con un toque mágico. Este hot dog New York está encantado con ingredientes hechizados que harán que cualquier mago o bruja se sienta en el corazón de la Gran Manzana."
+          title="Hot Dog New York"
+          Descripcion="Perro caliente, cuadros de queso y jamón, vegetales, salsa especial, mayonesa y mostaza."
           precio="650$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
         />
         <Item
-          title="Hog Dog Hogwarts"
-          Descripcion="Este hot dog Hogwarts está encantado con sabores mágicos que transportarán tus papilas gustativas a un festín en la escuela de magia más famosa del mundo."
+          title="Hot Dog Hogwarts"
+          Descripcion="Este hot dog de Perro caliente envuelto en jamón y queso, con vegetales picoteados, kepchu , mostaza y mayonesa está encantado con sabores mágicos que transportarán tus papilas gustativas a un festín en la escuela de magia más famosa del mundo."
           precio="700$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
@@ -275,10 +292,24 @@ function App() {
         <Item
           title="Rollitos de Jamón y Queso"
           Descripcion="Delicados rollitos de jamón y queso, envueltos en un hechizo delicioso que te transportará al Gran Comedor de Hogwarts."
-          precio="800$"
+          precio="1500$"
           urlImg={images.entranteRolloJamonQueso}
           direccionFlex="row"
 
+        />
+        <Item
+          title="Papas Bravas"
+          Descripcion="Un plato mágico y picante, que combina la crujiente textura de las papas con una salsa encantadora y audaz, perfecto para disfrutar en el Gran Comedor de Hogwarts."
+          precio="800$"
+          urlImg={images.entrante}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Chicharrita"
+          Descripcion="Combina la crujiente textura de las rodajas finas de burro frito con un toque encantador de sal y especias, perfecto para disfrutar en el Gran Comedor de Hogwarts."
+          precio="250$"
+          urlImg={images.entrante}
+          direccionFlex="column-reverse"
         />
         <Item
           title="Salchipapas"
@@ -290,7 +321,7 @@ function App() {
         <Item
           title="Surtido Tropical"
           Descripcion="Un festín mágico con croquetas, jamón, queso, galletas saladas y crujientes tostones."
-          precio="1000$"
+          precio="1800$"
           urlImg={images.entranteSurtidoTropical}
           direccionFlex="column-reverse"
 
@@ -610,8 +641,7 @@ function App() {
           Descripcion="Una bebida mágica y refrescante, que mezcla la frescura de la cerveza con el jugo de limón y un toque de sal, perfecta para disfrutar en el Gran Comedor de Hogwarts."
           precio="500$"
           urlImg={images.espreso}
-          direccionFlex="row-reverse
-          "
+          direccionFlex="row-reverse"
         />
         <Item
           title="Pantera Rosa"
@@ -664,7 +694,13 @@ function App() {
           urlImg={images.coctelOrgasmo}
           direccionFlex="row"
         />
-
+        <Item
+          title="Limonada Frapé"
+          Descripcion="Una bebida mágica y refrescante, que combina la elegancia del champán con el vibrante sabor del jugo de naranja, todo servido con un toque encantador de hielo frapé, perfecta para disfrutar en el Gran Comedor de Hogwarts."
+          precio="320$"
+          urlImg={images.coctelLimonadaFrape}
+          direccionFlex="row-reverse"
+        />
       </Seccion>
       <Seccion
         title="Bebidas"
@@ -675,7 +711,7 @@ function App() {
         <Item
           title="Cerveza Cristal"
           Descripcion=""
-          precio="280$"
+          precio="300$"
           urlImg={images.bebidaCervezaCristal}
           direccionFlex="column-reverse"
 
@@ -703,6 +739,14 @@ function App() {
           direccionFlex="column-reverse"
         />
         <Item
+          title="Cerveza Beck's"
+          Descripcion=""
+          precio="280$"
+          urlImg={images.bebidaCervezaCacique}
+          direccionFlex="column-reverse"
+        />
+
+        <Item
           title="Malta"
           Descripcion=""
           precio="300$"
@@ -719,7 +763,7 @@ function App() {
         <Item
           title="Refresco"
           Descripcion=""
-          precio="230$"
+          precio="250$"
           urlImg={images.bebidaRefresco}
           direccionFlex="column-reverse"
         />
