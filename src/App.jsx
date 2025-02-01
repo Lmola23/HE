@@ -696,7 +696,7 @@ function App() {
         />
         <Item
           title="Limonada Frapé"
-          Descripcion="Una bebida mágica y refrescante, que combina la elegancia del champán con el vibrante sabor del jugo de naranja, todo servido con un toque encantador de hielo frapé, perfecta para disfrutar en el Gran Comedor de Hogwarts."
+          Descripcion="Una bebida mágica y refrescante, con un toque encantador de hielo frapé, perfecta para disfrutar en el Gran Comedor de Hogwarts."
           precio="320$"
           urlImg={images.coctelLimonadaFrape}
           direccionFlex="row-reverse"
