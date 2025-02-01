@@ -145,7 +145,7 @@ function Navegacion() {
         >
           <div className="menu" ref={referenciaMenu} style={{ width: "100%" }}>
             {elementos.map((elemento, indice) => (
-              <div
+              <div translate="no"
                 key={indice}
                 className={`menu-item ${indice === seccionActiva ? "active" : ""}`}
                 style={{ marginRight: `${espacio}px`, fontFamily: "harryPotterFont" }}
