@@ -122,7 +122,7 @@ function App() {
           Descripcion=". Este sándwich de queso derretido te hará sentir como en un banquete en Hogwarts."
           precio="280$"
           urlImg={images.espreso}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
 
         />
         <Item
@@ -130,36 +130,36 @@ function App() {
           Descripcion="Este sándwich de queso derretido te hará sentir como en un banquete en Hogwarts."
           precio="290$"
           urlImg={images.espreso}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
         />
         <Item
           title="Sandwich de Salchicha"
           Descripcion="Este sándwich de salchicha es perfecto para cualquier mago o bruja en busca de una comida mágica y deliciosa."
           precio="300$"
           urlImg={images.espreso}
-          direccionFlex="row"
+          direccionFlex="column-reverse"
 
         />
         <Item
           title="Sandwich de Chorizo "
           Descripcion="Un hechizo de sabor ahumado en cada bocado  perfecto para magos y brujas que buscan un toque picante en su comida."
           precio="300$"
-          urlImg={images.espreso}
-          direccionFlex="row"
+          urlImg={images.column}
+          direccionFlex="column-reverse"
         />
         <Item
           title="Sandwich de Jamón y Queso"
           Descripcion="Este sándwich es perfecto para satisfacer el hambre de cualquier mago o bruja en sus aventuras diarias."
           precio="400$"
           urlImg={images.espreso}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
         />
         <Item
           title="Sandwich de Chorizo y Queso"
           Descripcion="Una mezcla mágica de chorizo picante y queso derretido es un verdadero encantamiento de sabor que deleitará a cualquier mago o bruja."
           precio="400$"
-          urlImg={images.espreso}
-          direccionFlex="row-reverse"
+          urlImg={images.colum}
+          direccionFlex="column-reverse"
         />
         <Item
           title="Sandwich de Salchicha y Queso"
@@ -664,6 +664,73 @@ function App() {
           urlImg={images.coctelOrgasmo}
           direccionFlex="row"
         />
+
+      </Seccion>
+      <Seccion
+        title="Bebidas"
+        urlImg={images.inicialBebida}
+        urlImg2={images.footerBebida}
+        Frase=""
+      >
+        <Item
+          title="Cerveza Cristal"
+          Descripcion=""
+          precio="280$"
+          urlImg={images.bebidaCervezaCristal}
+          direccionFlex="column-reverse"
+
+        />
+        <Item
+          title="Cerveza Bucanero"
+          Descripcion=""
+          precio="280$"
+          urlImg={images.bebidaCervezaBucanero}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Cerveza Widmill"
+          Descripcion=""
+          precio="250$"
+          urlImg={images.bebidaCervezaWidmill}
+          direccionFlex="column-reverse"
+
+        />
+        <Item
+          title="Cerveza Cacique"
+          Descripcion=""
+          precio="240$"
+          urlImg={images.bebidaCervezaCacique}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Malta"
+          Descripcion=""
+          precio="300$"
+          urlImg={images.bebidaMalta}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Jugo"
+          Descripcion=""
+          precio="230$"
+          urlImg={images.bebidaJugo}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Refresco"
+          Descripcion=""
+          precio="230$"
+          urlImg={images.bebidaRefresco}
+          direccionFlex="column-reverse"
+        />
+        <Item
+          title="Agua"
+          Descripcion=""
+          precio="250$"
+          urlImg={images.bebidaAgua}
+          direccionFlex="column-reverse"
+        />
+
 
       </Seccion>
 
