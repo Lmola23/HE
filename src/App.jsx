@@ -84,7 +84,7 @@ function App() {
           title="Hamburguesa Clasica"
           Descripcion="Jugosa y deliciosa,Carne, vegetales y salsas, una obra maestra mágica que satisface hasta los apetitos más voraces."
           precio="400$"
-          urlImg={images.Hamburguesa}
+          urlImg={images.hamburguesaClasica}
           direccionFlex="row-reverse"
 
         />
@@ -272,7 +272,7 @@ function App() {
           title="Tostones Rellenos de Pulpo"
           Descripcion="Crujientes tostones rellenos de pulpo tierno, sazonados con un toque de magia marina, directos desde la cocina de las sirenas de Hogwarts."
           precio="1000$"
-          urlImg={images.entrante}
+          urlImg={images.entranteTostonPulpo}
           direccionFlex="row-reverse"
         />
         <Item
@@ -367,19 +367,20 @@ function App() {
           direccionFlex="row-reverse"
         />
         <Item
-          title="Pizza Hawaianas"
-          Descripcion="Una pizza encantada con piña jugosa y jamón delicioso, digna de una fiesta en el Gran Comedor de Hogwarts."
-          precio="500$"
-          urlImg={images.pizzaHawaina}
-          direccionFlex="row-reverse"
-        />
-        <Item
           title="Pizza Mixta"
           Descripcion="Una pizza mágica con una mezcla irresistible de ingredientes frescos, perfecta para disfrutar en el Gran Comedor de Hogwarts."
           precio="550$"
           urlImg={images.pizzaMixta}
+          direccionFlex="row-reverse"
+        />
+        <Item
+          title="Pizza Hawaianas"
+          Descripcion="Una pizza encantada con piña jugosa y jamón delicioso, digna de una fiesta en el Gran Comedor de Hogwarts."
+          precio="500$"
+          urlImg={images.pizzaHawaina}
           direccionFlex="row"
         />
+
 
         <Item
           title="Pizza de Salchicha"
@@ -392,7 +393,7 @@ function App() {
           title="Pizza de Chorizo"
           Descripcion="Una pizza irresistible con chorizo jugoso y un toque mágico, perfecta para disfrutar una velada en el Gran Comedor de Hogwarts."
           precio="450$"
-          urlImg={images.espreso}
+          urlImg={images.pizzaChorizo}
           direccionFlex="row-reverse"
         />
         <Item
@@ -552,7 +553,7 @@ function App() {
           title="Malteada de Nutela"
           Descripcion="Una bebida mágica y decadente, que combina la rica suavidad de la Nutella, perfecta para deleitarse en el Gran Comedor de Hogwarts."
           precio="900$"
-          urlImg={images.bombon}
+          urlImg={images.malteadaNutela}
           direccionFlex="row-reverse"
         />
       </Seccion>
@@ -719,7 +720,7 @@ function App() {
         <Item
           title="Cerveza Bucanero"
           Descripcion=""
-          precio="280$"
+          precio="300$"
           urlImg={images.bebidaCervezaBucanero}
           direccionFlex="column-reverse"
         />
@@ -727,7 +728,7 @@ function App() {
           title="Cerveza Widmill"
           Descripcion=""
           precio="250$"
-          urlImg={images.bebidaCervezaWidmill}
+          urlImg={images.bebidaCervezaWindmill}
           direccionFlex="column-reverse"
 
         />
@@ -742,7 +743,7 @@ function App() {
           title="Cerveza Beck's"
           Descripcion=""
           precio="280$"
-          urlImg={images.bebidaCervezaCacique}
+          urlImg={images.bebidaCervezaBeck}
           direccionFlex="column-reverse"
         />
 

@@ -4,7 +4,7 @@
 
 .containerItem {
   display: flex;
-  width: 95%;
+  width: 100%;
   color: white;
   height: auto;
   margin-top: 10px;
@@ -35,8 +35,8 @@
 }
 
 .ImgItem {
-  width: 90%;
-  height: auto;
+  width: 100%;
+  height: 100%;
   margin: auto;
 
 }
