@@ -399,7 +399,7 @@ function App() {
         <Item
           title="Pizza de Camarones"
           Descripcion="Una pizza deliciosa con camarones frescos y un toque mágico de los mares, perfecta para una cena en el Gran Comedor de Hogwarts."
-          precio="500$"
+          precio="600$"
           urlImg={images.pizzaCamaron}
           direccionFlex="row-reverse"
         />
