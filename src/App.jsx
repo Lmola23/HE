@@ -25,7 +25,7 @@ function App() {
           title="Cafes Expreso"
           Descripcion="Un hechizo de energía en cada sorbo. Déjate revitalizar por su intensidad."
           precio="100$"
-          urlImg={images.espreso}
+          urlImg={images.cafeExpreso}
           direccionFlex="row"
         />
 
@@ -47,7 +47,7 @@ function App() {
           title="Café Bombón"
           Descripcion="Dulce y cremoso, un verdadero encantamiento para tu paladar."
           precio="250$"
-          urlImg={images.bombonCafe}
+          urlImg={images.cafeBombon}
           direccionFlex="row-reverse"
         />
       </Seccion>
@@ -92,7 +92,7 @@ function App() {
           title="Hamburguesas Picante"
           Descripcion="Intensamente sabrosa,Carne, vegetales, queso, salsas, picante y con un toque de fuego, perfecta para los valientes que buscan una explosión de sabor."
           precio="500$"
-          urlImg={images.Hamburguesa}
+          urlImg={images.hamburguesaPicante}
           direccionFlex="row"
         />
         <Item
@@ -485,7 +485,7 @@ function App() {
           title="Batido de Chocolate"
           Descripcion="Una bebida mágica y cremosa que te transportará a un dulce momento en el Gran Comedor de Hogwarts."
           precio="400$"
-          urlImg={images.espreso}
+          urlImg={images.batidoChocolate}
           direccionFlex="column-reverse"
 
         />
@@ -500,7 +500,7 @@ function App() {
           title="Batido de vainilla "
           Descripcion="Una bebida mágica y suave, ideal para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
           precio="450$"
-          urlImg={images.espreso}
+          urlImg={images.batidoVainilla}
           direccionFlex="column-reverse"
 
         />
@@ -508,7 +508,7 @@ function App() {
           title="Malta Condensada"
           Descripcion="Una bebida mágica y rica en sabor, perfecta para disfrutar un momento dulce en el Gran Comedor de Hogwarts."
           precio="550$"
-          urlImg={images.espreso}
+          urlImg={images.d}
           direccionFlex="column-reverse"
         />
         <Item
@@ -662,7 +662,7 @@ function App() {
           title="Alenxander"
           Descripcion="Una bebida mágica y sofisticada, que combina la suavidad del brandy, la crema de cacao y la crema de leche, perfecta para disfrutar en el Gran Comedor de Hogwarts."
           precio="750$"
-          urlImg={images.coctelAlenxander}
+          urlImg={images.coctelAlexander}
           direccionFlex="row"
         />
 
@@ -714,7 +714,7 @@ function App() {
           Descripcion=""
           precio="300$"
           urlImg={images.bebidaCervezaCristal}
-          direccionFlex="column-reverse"
+          direccionFlex="row"
 
         />
         <Item
@@ -722,14 +722,14 @@ function App() {
           Descripcion=""
           precio="300$"
           urlImg={images.bebidaCervezaBucanero}
-          direccionFlex="column-reverse"
+          direccionFlex="row-reverse"
         />
         <Item
           title="Cerveza Widmill"
           Descripcion=""
           precio="250$"
           urlImg={images.bebidaCervezaWindmill}
-          direccionFlex="column-reverse"
+          direccionFlex="row"
 
         />
         <Item
@@ -737,14 +737,14 @@ function App() {
           Descripcion=""
           precio="240$"
           urlImg={images.bebidaCervezaCacique}
-          direccionFlex="column-reverse"
+          direccionFlex="row-reverse"
         />
         <Item
           title="Cerveza Beck's"
           Descripcion=""
           precio="280$"
           urlImg={images.bebidaCervezaBeck}
-          direccionFlex="column-reverse"
+          direccionFlex="row"
         />
 
         <Item
@@ -752,28 +752,28 @@ function App() {
           Descripcion=""
           precio="300$"
           urlImg={images.bebidaMalta}
-          direccionFlex="column-reverse"
+          direccionFlex="row-reverse"
         />
         <Item
           title="Jugo"
           Descripcion=""
           precio="230$"
           urlImg={images.bebidaJugo}
-          direccionFlex="column-reverse"
+          direccionFlex="row"
         />
         <Item
           title="Refresco"
           Descripcion=""
           precio="250$"
           urlImg={images.bebidaRefresco}
-          direccionFlex="column-reverse"
+          direccionFlex="row-reverse"
         />
         <Item
           title="Agua"
           Descripcion=""
           precio="250$"
           urlImg={images.bebidaAgua}
-          direccionFlex="column-reverse"
+          direccionFlex="row"
         />
 
 
