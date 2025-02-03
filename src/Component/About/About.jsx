@@ -4,10 +4,10 @@ import './../../styles/fonts.css';
 
 function About() {
   const contacts = [
-    { icon: <FaPhone />, label: "Teléfono", value: "+123 456 789" },
-    { icon: <FaFacebook />, label: "Facebook", value: "HogwartsExpress" },
-    { icon: <FaInstagram />, label: "Instagram", value: "@Hogwarts" },
-    { icon: <FaMapMarkerAlt />, label: "Dirección", value: "Calle Mágica 9 ¾, Londres" },
+    { icon: <FaPhone />, label: "Teléfono", value: "54178835", link: "" },
+    { icon: <FaFacebook />, label: "Facebook", value: "HogwartsExpress", link: "https://facebook.com/HogwartsExpress" },
+    { icon: <FaInstagram />, label: "Instagram", value: "@Hogwarts", link: "https://www.instagram.com/cafe_bar_hogwarts?igsh=YzljYTk1ODg3Zg==" },
+    { icon: <FaMapMarkerAlt />, label: "Dirección", value: "Avenida Máximo Gómez #133", link: "https://maps.google.com/?q=Calle+Mágica+9+¾,+Londres" },
   ];
 
   return (
@@ -18,7 +18,9 @@ function About() {
           <li key={index} className="contact-item">
             {contact.icon}
             <span className="contact-label">{contact.label}:</span>
-            <span className="contact-value">{contact.value}</span>
+            <a href={contact.link} className="contact-value" target="_blank" rel="noopener noreferrer">
+              {contact.value}
+            </a>
           </li>
         ))}
       </ul>
