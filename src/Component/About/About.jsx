@@ -5,8 +5,8 @@ import './../../styles/fonts.css';
 function About() {
   const contacts = [
     { icon: <FaPhone />, label: "Teléfono", value: "54178835", link: "" },
-    { icon: <FaFacebook />, label: "Facebook", value: "HogwartsExpress", link: "https://facebook.com/HogwartsExpress" },
-    { icon: <FaInstagram />, label: "Instagram", value: "@Hogwarts", link: "https://www.instagram.com/cafe_bar_hogwarts?igsh=YzljYTk1ODg3Zg==" },
+    { icon: <FaFacebook />, label: "Facebook", value: "Café Bar HogwartsExpress", link: "https://www.facebook.com/profile.php?id=61571297393885" },
+    { icon: <FaInstagram />, label: "Instagram", value: "Café -bar Hogwarts ", link: "https://www.instagram.com/cafe_bar_hogwarts?igsh=YzljYTk1ODg3Zg==" },
     { icon: <FaMapMarkerAlt />, label: "Dirección", value: "Avenida Máximo Gómez #133", link: "https://maps.google.com/?q=Calle+Mágica+9+¾,+Londres" },
   ];
 

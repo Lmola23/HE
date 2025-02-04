@@ -9,6 +9,17 @@ body {
   border-image-repeat: round round;
   border-image-source: url('assets/borderBody.png');
   background-image: url('assets/fondo.jpeg');
+
+
+
+  -webkit-border-image-slice: 27 27 27 27;
+  -webkit-border-image-width: 10px 10px 10px 10px;
+  -webkit-border-image-outset: 0px 0px 0px 0px;
+  -webkit-border-image-repeat: round round;
+  -webkit-border-image-source: url('assets/borderBody.png');
+
+
+  background-image: url('assets/fondo.jpeg');
   box-sizing: border-box;
   margin: 0;
   width: 100%;

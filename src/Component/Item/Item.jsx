@@ -1,7 +1,7 @@
 import './Item.css';
 import './../../styles/fonts.css';
 
-export default function Item({ title, Descripcion, precio, urlImg, direccionFlex = "row" }) {
+export default function Item({ title, Descripcion, precio, urlImg, direccionFlex = "row", scaleImage = 1 }) {
   return (
     <>
       <div className="containerItem" style={{ flexDirection: direccionFlex, fontFamily: "harryPotterFont" }}>
@@ -10,7 +10,7 @@ export default function Item({ title, Descripcion, precio, urlImg, direccionFlex
           <p className="descripItem" >{Descripcion}</p>
           <p className="precioItem">{precio}</p>
         </div>
-        <div className="ImgItemContainer">
+        <div className="ImgItemContainer" style={{ scale: scaleImage }}>
           <img className='ImgItem' src={urlImg} alt="" />
         </div>
       </div>

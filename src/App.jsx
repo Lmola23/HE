@@ -298,6 +298,13 @@ function App() {
 
         />
         <Item
+          title="Nuggets de Pollo"
+          Descripcion="¡Crujientes por fuera, jugosos por dentro y con un toque mágico de Hogwarts!"
+          precio="800$"
+          urlImg={images.entrante}
+          direccionFlex="column-reverse"
+        />
+        <Item
           title="Papas Bravas"
           Descripcion="Un plato mágico y picante, que combina la crujiente textura de las papas con una salsa encantadora y audaz, perfecto para disfrutar en el Gran Comedor de Hogwarts."
           precio="800$"
@@ -480,6 +487,7 @@ function App() {
         urlImg={images.inicialBatido}
         urlImg2={images.footerBatido}
         Frase="No importa que seas una rata tonta, Weasley. La Gran Escalinata no distingue entre magos de sangre pura y traidores."
+
       >
         <Item
           title="Batido de Chocolate"
@@ -487,6 +495,7 @@ function App() {
           precio="400$"
           urlImg={images.batidoChocolate}
           direccionFlex="column-reverse"
+          scaleImage={1.2}
 
         />
         <Item
@@ -495,6 +504,7 @@ function App() {
           precio="450$"
           urlImg={images.batidoFresa}
           direccionFlex="column-reverse"
+
         />
         <Item
           title="Batido de vainilla "
@@ -569,6 +579,7 @@ function App() {
           precio="750$"
           urlImg={images.coctelMedusaShot}
           direccionFlex="row-reverse"
+
         />
         <Item
           title="Toro Bravo"
@@ -576,6 +587,7 @@ function App() {
           precio="900$"
           urlImg={images.coctelToroBravo}
           direccionFlex="row"
+
         />
 
 
@@ -585,6 +597,7 @@ function App() {
           precio="750$"
           urlImg={images.coctelMargaritaTradicional}
           direccionFlex="row-reverse"
+
         />
 
         <Item
@@ -593,6 +606,7 @@ function App() {
           precio="650$"
           urlImg={images.coctelMargaritaBlue}
           direccionFlex="row"
+
         />
         <Item
           title="Mojito Cubano"
@@ -600,6 +614,7 @@ function App() {
           precio="550$"
           urlImg={images.coctelMojitoCubano}
           direccionFlex="row-reverse"
+
         />
         <Item
           title="Cuba Libre"
@@ -607,6 +622,7 @@ function App() {
           precio="500$"
           urlImg={images.coctelCubaLibre}
           direccionFlex="row"
+
         />
         <Item
           title="Gin Tonic"
@@ -614,6 +630,7 @@ function App() {
           precio="700$"
           urlImg={images.coctelGinTonic}
           direccionFlex="row-reverse"
+
         />
 
         <Item
@@ -622,6 +639,7 @@ function App() {
           precio="500$"
           urlImg={images.coctelDaiquiriRebelde}
           direccionFlex="row"
+
         />
         <Item
           title="Martini"
@@ -629,6 +647,7 @@ function App() {
           precio="600"
           urlImg={images.coctelMartini}
           direccionFlex="row-reverse"
+
         />
         <Item
           title="Michelada"
@@ -643,6 +662,7 @@ function App() {
           precio="500$"
           urlImg={images.espreso}
           direccionFlex="row-reverse"
+
         />
         <Item
           title="Pantera Rosa"
@@ -650,6 +670,7 @@ function App() {
           precio="600$"
           urlImg={images.coctelPanteraRosa}
           direccionFlex="row"
+
         />
         <Item
           title="Piña Colada"
@@ -657,6 +678,7 @@ function App() {
           precio="750$"
           urlImg={images.coctelPinaColada}
           direccionFlex="row-reverse"
+
         />
         <Item
           title="Alenxander"
@@ -664,6 +686,7 @@ function App() {
           precio="750$"
           urlImg={images.coctelAlexander}
           direccionFlex="row"
+
         />
 
         <Item
@@ -672,6 +695,7 @@ function App() {
           precio="550$"
           urlImg={images.coctelGrandFather}
           direccionFlex="row-reverse"
+
         />
         <Item
           title="Poción Multijugos"
@@ -679,6 +703,7 @@ function App() {
           precio="800"
           urlImg={images.coctelPosionMultijugos}
           direccionFlex="row"
+
         />
         <Item
           title="Blody Mary"
@@ -686,6 +711,7 @@ function App() {
           precio="600$"
           urlImg={images.coctelBlodyMary}
           direccionFlex="row-reverse"
+
         />
 
         <Item
@@ -694,6 +720,7 @@ function App() {
           precio="800$"
           urlImg={images.coctelOrgasmo}
           direccionFlex="row"
+
         />
         <Item
           title="Limonada Frapé"

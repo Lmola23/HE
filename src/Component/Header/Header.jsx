@@ -7,8 +7,8 @@ export default function Header() {
       <div className='container'>
         <img className='imgPrensentacion' src={imgPrensent} alt="" />
       </div>
-      <h1 className='textInicial' style={{ fontFamily: "harryPotterFont", fontWeight: "normal" }}>Bienvendidos</h1>
-      <h2 className='h2Present' style={{ fontFamily: "harryPotterFont" }}>DESCUBRE LOS SABORES MÁGICOS</h2>
+      <h1 className='textInicial' style={{ fontFamily: "harryPotterFont", fontWeight: "normal" }} translate='no'>Bienvenidos</h1>
+      <h2 className='h2Present' style={{ fontFamily: "harryPotterFont" }} translate='no'>DESCUBRE LOS SABORES MÁGICOS</h2>
 
     </>
   );
