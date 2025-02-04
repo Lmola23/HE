@@ -34,14 +34,14 @@ function App() {
           Descripcion="Intenso y suave, una mezcla encantadora que hechiza tus sentidos."
           precio="150$"
           urlImg={images.espreso}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
         />
         <Item
           title="Café Capuchino"
           Descripcion="Espuma suave y sabor encantador, un deleite mágico en cada taza."
           precio="200$"
-          urlImg={images.espreso}
-          direccionFlex="row"
+          urlImg={images.espre}
+          direccionFlex="column-reverse"
         />
         <Item
           title="Café Bombón"
@@ -550,7 +550,7 @@ function App() {
           Descripcion="Una bebida mágica, suave y cremosa, perfecta para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
           precio="550$"
           urlImg={images.malteadaVainilla}
-          direccionFlex="column-reverse"
+          direccionFlex="row-reverse"
         />
         <Item
           title="Malteada de chocolate"
@@ -709,7 +709,7 @@ function App() {
           title="Blody Mary"
           Descripcion="Una bebida mágica y vibrante, que combina el jugo de tomate con un toque de vodka y especias encantadoras, perfecta para disfrutar en el Gran Comedor de Hogwarts."
           precio="600$"
-          urlImg={images.coctelBlodyMary}
+          urlImg={images.coctelBloodyMery}
           direccionFlex="row-reverse"
 
         />
