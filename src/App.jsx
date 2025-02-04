@@ -100,7 +100,7 @@ function App() {
           Descripcion="Intensamente sabrosa,Carne, vegetales, jamón y salsas perfecta  explosión de sabor."
           precio="500$"
           urlImg={images.Hamburguesa}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
         />
 
         <Item
@@ -280,7 +280,7 @@ function App() {
           Descripcion="Jugoso chorizo asado al carbón, con un toque mágico de Hogwarts."
           precio="500$"
           urlImg={images.entrante}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
         />
         <Item
           title="Brochetas Hawaianas"
@@ -356,15 +356,15 @@ function App() {
           Descripcion="Una deliciosa creación traída directamente desde las cocinas mágicas de Hogwarts, perfecta para satisfacer cualquier antojo."
           precio="250$"
           urlImg={images.espreso}
-          direccionFlex="row"
+          direccionFlex="column-reverse"
         />
 
         <Item
           title="Pizza de Doble Queso"
           Descripcion="Una pizza con una doble capa de queso derretido, tan deliciosa que parece salida de las cocinas mágicas de Hogwarts."
           precio="400$"
-          urlImg={images.espreso}
-          direccionFlex="row"
+          urlImg={images.pizza}
+          direccionFlex="column-reverse"
         />
         <Item
           title="Pizza de Jamón y Queso"
@@ -550,7 +550,7 @@ function App() {
           Descripcion="Una bebida mágica, suave y cremosa, perfecta para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
           precio="550$"
           urlImg={images.malteadaVainilla}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
         />
         <Item
           title="Malteada de chocolate"
@@ -596,7 +596,7 @@ function App() {
           Descripcion="Una bebida mágica y refrescante, que combina el clásico sabor de la margarita con un toque encantador, perfecta para deleitarse en el Gran Comedor de Hogwarts."
           precio="750$"
           urlImg={images.coctelMargaritaTradicional}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
 
         />
 
@@ -638,7 +638,7 @@ function App() {
           Descripcion="Un cóctel mágico y audaz, que combina el sabor refrescante del ron y el limón con un toque rebelde al estilo de Hogwarts, perfecto para disfrutar en el Gran Comedor."
           precio="500$"
           urlImg={images.coctelDaiquiriRebelde}
-          direccionFlex="row"
+          direccionFlex="column-reverse"
 
         />
         <Item
@@ -646,7 +646,7 @@ function App() {
           Descripcion="Un cóctel mágico y sofisticado, que combina la elegancia del gin y el vermut con un toque encantador al estilo de Hogwarts, perfecto para disfrutar en el Gran Comedor."
           precio="600"
           urlImg={images.coctelMartini}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
 
         />
         <Item
@@ -661,7 +661,7 @@ function App() {
           Descripcion="Una bebida mágica y refrescante, que mezcla la frescura de la cerveza con el jugo de limón y un toque de sal, perfecta para disfrutar en el Gran Comedor de Hogwarts."
           precio="500$"
           urlImg={images.espreso}
-          direccionFlex="row-reverse"
+          direccionFlex="column-reverse"
 
         />
         <Item
@@ -734,7 +734,7 @@ function App() {
         title="Bebidas"
         urlImg={images.inicialBebida}
         urlImg2={images.footerBebida}
-        Frase=""
+        Frase="Lo que importa no es lo que somos al nacer, sino lo que hacemos de nosotros mismos."
       >
         <Item
           title="Cerveza Cristal"

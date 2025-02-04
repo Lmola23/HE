@@ -19,6 +19,22 @@ body {
   -webkit-border-image-source: url('assets/borderBody.png');
 
 
+
+  -moz-border-image-slice: 27 27 27 27;
+  -moz-border-image-width: 10px 10px 10px 10px;
+  -moz-border-image-outset: 0px 0px 0px 0px;
+  -moz-border-image-repeat: repeat;
+  -moz-border-image-source: url('../../assets/borderBody.png');
+
+  -o-border-image-slice: 27 27 27 27;
+  -o-border-image-width: 10px 10px 10px 10px;
+  -o-border-image-outset: 0px 0px 0px 0px;
+  -o-border-image-repeat: repeat;
+  -o-border-image-source: url('../../assets/borderBody.png');
+
+  box-shadow: inset 0 0 50px white;
+
+
   background-image: url('assets/fondo.jpeg');
   box-sizing: border-box;
   margin: 0;

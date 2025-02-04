@@ -29,6 +29,8 @@
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  width: 100%;
+
 }
 
 .contact-item:last-child {
@@ -39,6 +41,7 @@
   font-size: 4vw;
   color: white;
   margin-right: 10px;
+
 }
 
 .contact-label {

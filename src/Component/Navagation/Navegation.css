@@ -68,9 +68,33 @@
   transition: all 0.3s ease-in-out;
   background-color: rgba(0, 0, 0, 0.5);
   border-image-slice: 27 27 27 27;
-  border-image-width: 10px 10px 10px 10px;
+  border-image-width: 10px 10px 0px 10px;
   border-image-outset: 0px 0px 0px 0px;
   border-image-repeat: repeat;
   border-image-source: url('../../assets/borderBody.png');
+  box-shadow: 10px 10px 30px white;
+
+
+  -webkit-border-image-slice: 27 27 27 27;
+  -webkit-border-image-width: 10px 0px 10px 10px;
+  -webkit-border-image-outset: 0px 0px 0px 0px;
+  -webkit-border-image-repeat: repeat;
+  -webkit-border-image-source: url('../../assets/borderBody.png');
+
+  -moz-border-image-slice: 27 27 27 27;
+  -moz-border-image-width: 10px 0px 10px 10px;
+  -moz-border-image-outset: 0px 0px 0px 0px;
+  -moz-border-image-repeat: repeat;
+  -moz-border-image-source: url('../../assets/borderBody.png');
+
+  -o-border-image-slice: 27 27 27 27;
+  -o-border-image-width: 10px 0px 10px 10px;
+  -o-border-image-outset: 0px 0px 0px 0px;
+  -o-border-image-repeat: repeat;
+  -o-border-image-source: url('../../assets/borderBody.png');
+
+
+
+
   background-image: url('../../assets/fondo.jpeg');
 }
