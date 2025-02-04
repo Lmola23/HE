@@ -32,7 +32,7 @@ body {
   -o-border-image-repeat: repeat;
   -o-border-image-source: url('../../assets/borderBody.png');
 
-  box-shadow: inset 0 0 50px white;
+  box-shadow: inset 0 0 30px white;
 
 
   background-image: url('assets/fondo.jpeg');

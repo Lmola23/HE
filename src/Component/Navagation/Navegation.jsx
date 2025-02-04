@@ -20,7 +20,7 @@ function Navegacion() {
   const anchoContenedor = anchoElemento * elementosVisibles + espacio * (elementosVisibles - 1);
   const anchoTotal = anchoElemento * elementos.length + espacio * (elementos.length - 1);
   const maximoTraduccionX = 0;
-  const minimoTraduccionX = -((anchoTotal + 120) - anchoContenedor);
+  const minimoTraduccionX = -(anchoTotal - anchoContenedor);
 
   useEffect(() => {
     if (referenciaMenu.current) {
