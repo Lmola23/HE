@@ -67,7 +67,7 @@ function App() {
         />
 
         <Item
-          title="Esalada Fria"
+          title="Ensalada Fria"
           Descripcion="Refrescante y deliciosa, preparada con el toque mágico de los elfos domésticos."
           precio="550$"
           urlImg={images.dulce}
