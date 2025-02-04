@@ -451,7 +451,7 @@ function App() {
           direccionFlex="row-reverse"
         />
         <Item
-          title="Expagueti Mixto"
+          title="Espagueti Mixto"
           Descripcion="Un plato mágico que combina sabores exquisitos, perfecto para disfrutar una experiencia encantadora al estilo Hogwarts."
           precio="500$"
           urlImg={images.pizza}
