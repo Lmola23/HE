@@ -78,7 +78,7 @@ function App() {
         title="Hamburguesas"
         urlImg={images.inicialHamburguesa}
         urlImg2={images.footerHamburguesa}
-        Frase="Tengo una idea mejor. ¡Gastémoslo todo en dulces!"
+        Frase="Dobby no tiene amo. Dobby es un elfo libre, y Dobby ha venido a salvar a Harry Potter y a sus amigos."
       >
         <Item
           title="Hamburguesa Clasica"
