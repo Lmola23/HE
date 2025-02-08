@@ -706,7 +706,7 @@ function App() {
 
         />
         <Item
-          title="Blody Mary"
+          title="Bloody Mery"
           Descripcion="Una bebida mágica y vibrante, que combina el jugo de tomate con un toque de vodka y especias encantadoras, perfecta para disfrutar en el Gran Comedor de Hogwarts."
           precio="600$"
           urlImg={images.coctelBloodyMery}
