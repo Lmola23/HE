@@ -40,8 +40,8 @@ function App() {
           title="Café Capuchino"
           Descripcion="Espuma suave y sabor encantador, un deleite mágico en cada taza."
           precio="200$"
-          urlImg={images.espre}
-          direccionFlex="column-reverse"
+          urlImg={images.cafeCapuchino}
+          direccionFlex="row"
         />
         <Item
           title="Café Bombón"
@@ -355,16 +355,16 @@ function App() {
           title="Pizza Napolitana"
           Descripcion="Una deliciosa creación traída directamente desde las cocinas mágicas de Hogwarts, perfecta para satisfacer cualquier antojo."
           precio="250$"
-          urlImg={images.espreso}
-          direccionFlex="column-reverse"
+          urlImg={images.pizzaNapolitana}
+          direccionFlex="row"
         />
 
         <Item
           title="Pizza de Doble Queso"
           Descripcion="Una pizza con una doble capa de queso derretido, tan deliciosa que parece salida de las cocinas mágicas de Hogwarts."
           precio="400$"
-          urlImg={images.pizza}
-          direccionFlex="column-reverse"
+          urlImg={images.pizzaDobleQueso}
+          direccionFlex="row"
         />
         <Item
           title="Pizza de Jamón y Queso"
@@ -595,8 +595,8 @@ function App() {
           title="Margarita Tradicional"
           Descripcion="Una bebida mágica y refrescante, que combina el clásico sabor de la margarita con un toque encantador, perfecta para deleitarse en el Gran Comedor de Hogwarts."
           precio="750$"
-          urlImg={images.coctelMargaritaTradicional}
-          direccionFlex="column-reverse"
+          urlImg={images.coctelMargarita}
+          direccionFlex="row-reverse"
 
         />
 
@@ -638,7 +638,7 @@ function App() {
           Descripcion="Un cóctel mágico y audaz, que combina el sabor refrescante del ron y el limón con un toque rebelde al estilo de Hogwarts, perfecto para disfrutar en el Gran Comedor."
           precio="500$"
           urlImg={images.coctelDaiquiriRebelde}
-          direccionFlex="column-reverse"
+          direccionFlex="row"
 
         />
         <Item
@@ -646,7 +646,7 @@ function App() {
           Descripcion="Un cóctel mágico y sofisticado, que combina la elegancia del gin y el vermut con un toque encantador al estilo de Hogwarts, perfecto para disfrutar en el Gran Comedor."
           precio="600"
           urlImg={images.coctelMartini}
-          direccionFlex="column-reverse"
+          direccionFlex="row-reverse"
 
         />
         <Item
@@ -728,6 +728,13 @@ function App() {
           precio="320$"
           urlImg={images.coctelLimonadaFrape}
           direccionFlex="row-reverse"
+        />
+        <Item
+          title="Amortentia"
+          Descripcion="Un cóctel hechicero de amor con fragancias irresistibles y sabores mágicos."
+          precio="600$"
+          urlImg={images.coctelAmortentia}
+          direccionFlex="row"
         />
       </Seccion>
       <Seccion
