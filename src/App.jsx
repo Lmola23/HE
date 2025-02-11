@@ -204,7 +204,7 @@ function App() {
         <Item
           title="Hot Dog Chicago"
           Descripcion="Perro caliente con vegetales picoteados, mayonesa, ketchup y mostaza."
-          precio="400$"
+          precio="420$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
         />
@@ -264,7 +264,7 @@ function App() {
         <Item
           title="Tostones Rellenos de Camarón"
           Descripcion="Crujientes tostones rellenos de camarón fresco, con un toque de magia marina."
-          precio="1000$"
+          precio="1200$"
           urlImg={images.entranteTostonCamaron}
           direccionFlex="row"
         />
@@ -392,7 +392,7 @@ function App() {
         <Item
           title="Pizza de Salchicha"
           Descripcion="Una pizza irresistible con salchichas doradas y un toque mágico, perfecta para una cena en el Gran Comedor de Hogwarts."
-          precio="400$"
+          precio="450$"
           urlImg={images.pizzaSalchicha}
           direccionFlex="row"
         />
