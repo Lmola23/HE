@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Header, Navigation, Footer } from './Components/index.js';
 import { CafeSection, DulceSection, HamburguesaSection, SandwichSection, HotDogSection, EntrantesSection, PizzasSection, EspaguetisSection, BatidosSection, MalteadaSection, CoteclesSection, BebidasSection } from './SectionMenu/index.js';
@@ -9,8 +8,18 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const checkStylesLoaded = () => {
-      if (document.styleSheets.length > 0) {
+    const checkResourcesLoaded = () => {
+      const images = document.images;
+      let allImagesLoaded = true;
+
+      for (let i = 0; i < images.length; i++) {
+        if (!images[i].complete) {
+          allImagesLoaded = false;
+          break;
+        }
+      }
+
+      if (document.styleSheets.length > 0 && allImagesLoaded) {
         let allStylesLoaded = true;
         for (let i = 0; i < document.styleSheets.length; i++) {
           try {
@@ -23,14 +32,14 @@ function App() {
         if (allStylesLoaded) {
           setIsLoading(false);
         } else {
-          setTimeout(checkStylesLoaded, 100);
+          setTimeout(checkResourcesLoaded, 100);
         }
       } else {
-        setTimeout(checkStylesLoaded, 100);
+        setTimeout(checkResourcesLoaded, 100);
       }
     };
 
-    checkStylesLoaded();
+    checkResourcesLoaded();
   }, []);
 
   return (
