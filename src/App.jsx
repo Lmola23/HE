@@ -1,6 +1,8 @@
+
 import React, { useState, useEffect } from 'react';
 import { Header, Navigation, Footer } from './Components/index.js';
 import { CafeSection, DulceSection, HamburguesaSection, SandwichSection, HotDogSection, EntrantesSection, PizzasSection, EspaguetisSection, BatidosSection, MalteadaSection, CoteclesSection, BebidasSection } from './SectionMenu/index.js';
+import { ClipLoader } from 'react-spinners';
 import './App.css';
 
 function App() {
@@ -36,7 +38,7 @@ function App() {
       {/* Overlay de carga */}
       {isLoading && (
         <div className="loading-overlay">
-          <div className="loading-spinner"></div>
+          <ClipLoader color="#123abc" loading={isLoading} size={150} />
         </div>
       )}
 
