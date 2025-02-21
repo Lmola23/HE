@@ -5,7 +5,7 @@ import images from './../../Utils/ImagesPizzas.js';
 
 export default function PizzasSection() {
       
-
+return(
     <Seccion
     title="Pizzas"
     urlImg={images.inicialPizza}
@@ -73,7 +73,7 @@ export default function PizzasSection() {
     />
 
   </Seccion>
-
+);
 
 
     

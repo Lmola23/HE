@@ -4,7 +4,7 @@ import images from './../../Utils/ImagesEspaguetis.js';
 
 
 export default function EspaguetisSection(){
-
+ return(
     <Seccion
 
     title={"Espaguetis"}
@@ -76,7 +76,7 @@ export default function EspaguetisSection(){
 
   </Seccion>
 
-
+ );
 
 
 
