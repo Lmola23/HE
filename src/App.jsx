@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Header, Navigation, Footer } from './Components/index.js';
-import { CafeSection, DulceSection, HamburguesaSection, SandwichSection, HotDogSection, EntrantesSection,PizzasSection,EspaguetisSection, BatidosSection, MalteadaSection, CoteclesSection, BebidasSection } from './SectionMenu/index.js';
+import { CafeSection, DulceSection, HamburguesaSection, SandwichSection, HotDogSection, EntrantesSection, PizzasSection, EspaguetisSection, BatidosSection, MalteadaSection, CoteclesSection, BebidasSection } from './SectionMenu/index.js';
 import './App.css';
 
 function App() {
@@ -41,21 +41,25 @@ function App() {
       )}
 
       {/* Contenido principal de la página */}
-      <Header />
-      <Navigation />
-      <CafeSection />
-      <DulceSection />
-      <HamburguesaSection />
-      <SandwichSection />
-      <HotDogSection />
-      <EntrantesSection />
-      <PizzasSection />
-      <EspaguetisSection />
-      <BatidosSection />
-      <MalteadaSection />
-      <CoteclesSection />
-      <BebidasSection />
-      <Footer />
+      {!isLoading && (
+        <>
+          <Header />
+          <Navigation />
+          <CafeSection />
+          <DulceSection />
+          <HamburguesaSection />
+          <SandwichSection />
+          <HotDogSection />
+          <EntrantesSection />
+          <PizzasSection />
+          <EspaguetisSection />
+          <BatidosSection />
+          <MalteadaSection />
+          <CoteclesSection />
+          <BebidasSection />
+          <Footer />
+        </>
+      )}
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function EspaguetisSection(){
     title={"Espaguetis"}
     urlImg={images.inicialEspagueti}
     urlImg2={images.footerEspagueti}
-    background={img.fondoEspagueti}
+    background={images.fondoEspagueti}
     Frase="No hay bien y mal, solo hay poder y aquellos demasiado débiles para buscarlo"
 
   >
