@@ -1,96 +1,55 @@
-import Item from './../../Components/Item/Item.jsx';
-import Seccion from './../../Components/Seccion/Seccion.jsx';
-import images from './../../Utils/ImagesPizzas.js';
-import FadeInSection from './../../Components/FadeInSection/FadeInSection.jsx';
+import Item from "./../../Components/Item/Item.jsx";
+import Seccion from "./../../Components/Seccion/Seccion.jsx";
+import images from "./../../Utils/ImagesMalteadas.js";
+import FadeInSection from "./../../Components/FadeInSection/FadeInSection.jsx";
 
-export default function PizzasSection() {
+export default function MalteadasSection() {
   return (
     <Seccion
-      title="Pizzas"
-      urlImg={images.inicialPizza}
-      urlImg2={images.footerPizza}
-      Frase="La felicidad se puede hallar, incluso en los momentos más oscuros, si somos capaces de usar bien la luz."
+      title="Malteadas"
+      urlImg={images.inicialMalteada}
+      urlImg2={images.footerMalteada}
+      Frase="Juro solemnemente que mis intenciones no son buenas."
     >
       <FadeInSection>
         <Item
-          title="Pizza Napolitana"
-          Descripcion="Una deliciosa creación traída directamente desde las cocinas mágicas de Hogwarts, perfecta para satisfacer cualquier antojo."
-          precio="250$"
-          urlImg={images.pizzaNapolitana}
-          direccionFlex="row"
-        />
-      </FadeInSection>
-
-      <FadeInSection>
-        <Item
-          title="Pizza de Doble Queso"
-          Descripcion="Una pizza con una doble capa de queso derretido, tan deliciosa que parece salida de las cocinas mágicas de Hogwarts."
-          precio="400$"
-          urlImg={images.pizzaDobleQueso}
-          direccionFlex="row"
-        />
-      </FadeInSection>
-
-      <FadeInSection>
-        <Item
-          title="Pizza de Jamón y Queso"
-          Descripcion="Una pizza con jamón delicioso y queso fundido, preparada con un toque de magia de las cocinas de Hogwarts."
-          precio="450$"
-          urlImg={images.pizzaJamonQueso}
-          direccionFlex="row-reverse"
-        />
-      </FadeInSection>
-
-      <FadeInSection>
-        <Item
-          title="Pizza Mixta"
-          Descripcion="Una pizza mágica con una mezcla irresistible de ingredientes frescos, perfecta para disfrutar en el Gran Comedor de Hogwarts."
-          precio="550$"
-          urlImg={images.pizzaMixta}
-          direccionFlex="row-reverse"
-        />
-      </FadeInSection>
-
-      <FadeInSection>
-        <Item
-          title="Pizza Hawaianas"
-          Descripcion="Una pizza encantada con piña jugosa y jamón delicioso, digna de una fiesta en el Gran Comedor de Hogwarts."
-          precio="500$"
-          urlImg={images.pizzaHawaina}
-          direccionFlex="row"
-        />
-      </FadeInSection>
-
-      <FadeInSection>
-        <Item
-          title="Pizza de Salchicha"
-          Descripcion="Una pizza irresistible con salchichas doradas y un toque mágico, perfecta para una cena en el Gran Comedor de Hogwarts."
-          precio="450$"
-          urlImg={images.pizzaSalchicha}
-          direccionFlex="row"
-        />
-      </FadeInSection>
-
-      <FadeInSection>
-        <Item
-          title="Pizza de Chorizo"
-          Descripcion="Una pizza irresistible con chorizo jugoso y un toque mágico, perfecta para disfrutar una velada en el Gran Comedor de Hogwarts."
-          precio="450$"
-          urlImg={images.pizzaChorizo}
-          direccionFlex="row-reverse"
-        />
-      </FadeInSection>
-
-      <FadeInSection>
-        <Item
-          title="Pizza de Camarones"
-          Descripcion="Una pizza deliciosa con camarones frescos y un toque mágico de los mares, perfecta para una cena en el Gran Comedor de Hogwarts."
+          title="Malteada de Fresa"
+          Descripcion="Una bebida mágica, refrescante y llena de sabor, perfecta para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
           precio="600$"
-          urlImg={images.pizzaCamaron}
+          urlImg={images.malteadaFresa}
+          direccionFlex="row"
+        />
+      </FadeInSection>
+
+      <FadeInSection>
+        <Item
+          title="Malteada de vainilla"
+          Descripcion="Una bebida mágica, suave y cremosa, perfecta para disfrutar un dulce momento en el Gran Comedor de Hogwarts."
+          precio="550$"
+          urlImg={images.malteadaVainilla}
           direccionFlex="row-reverse"
         />
       </FadeInSection>
-      
+
+      <FadeInSection>
+        <Item
+          title="Malteada de chocolate"
+          Descripcion="Una bebida celestial que combina la magia del chocolate con una suavidad increíble, perfecta para deleitarse en el Gran Comedor de Hogwarts."
+          precio="600$"
+          urlImg={images.malteadaChocolate}
+          direccionFlex="row"
+        />
+      </FadeInSection>
+
+      <FadeInSection>
+        <Item
+          title="Malteada de Nutela"
+          Descripcion="Una bebida mágica y decadente, que combina la rica suavidad de la Nutella, perfecta para deleitarse en el Gran Comedor de Hogwarts."
+          precio="900$"
+          urlImg={images.malteadaNutela}
+          direccionFlex="row-reverse"
+        />
+      </FadeInSection>
     </Seccion>
   );
 }
