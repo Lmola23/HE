@@ -1,7 +1,5 @@
 
-
-
-const img = import.meta.glob('../assets/*.{png,jpg,jpeg}', { eager: true });
+const img = import.meta.glob('../assets/ImgSandwich/*.{png,jpg,jpeg}', { eager: true });
 
 const imageMapper = Object.keys(img).reduce((acc, path) => {
   const name = path.split('/').pop().split('.')[0]; // Extrae el nombre del archivo

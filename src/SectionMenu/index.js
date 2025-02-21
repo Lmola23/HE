@@ -1,0 +1,12 @@
+export { default as CafeSection } from './Sections/CafeSection.jsx';
+export { default as DulceSection } from './Sections/DulceSection.jsx';
+export { default as HamburguesaSection } from './Sections/HamburguesaSection.jsx';
+export { default as SandwichSection } from './Sections/SandwichSection.jsx';
+export { default as HotDogSection } from './Sections/HotDogSection.jsx';
+export { default as EntrantesSection } from './Sections/EntrantesSection.jsx';
+export { default as PizzasSection} from './Sections/PizzasSection.jsx';
+export { default as EspaguetisSection} from './Sections/EspaguetisSection.jsx';
+export {default as BatidosSection} from './Sections/BatidosSection.jsx';
+export {default as MalteadaSection} from './Sections/MalteadasSection.jsx';
+export {default as CoteclesSection} from './Sections/CoctelesSection.jsx';
+export {default as BebidasSection} from './Sections/BebidasSection.jsx';

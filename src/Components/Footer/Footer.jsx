@@ -1,5 +1,5 @@
 import FotterMenu from './../../assets/FooterMenu.png';
-import About from './../About/About.jsx';
+import About from '../About/About.jsx';
 import './Footer.css';
 import './../../styles/fonts.css';
 export default function Footer() {
