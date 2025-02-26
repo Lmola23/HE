@@ -43,7 +43,6 @@ body {
   padding: 0;
 
 }
-<<<<<<< HEAD
 oading-overlay {
   position: fixed;
   top: 0;
@@ -71,5 +70,4 @@ oading-overlay {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-=======
->>>>>>> 2212b4f (cambios)
+
