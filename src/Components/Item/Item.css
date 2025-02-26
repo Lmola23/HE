@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+.containerItem {
+  display: flex;
+  width: 100%;
+  color: white;
+  height: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.descripContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+
+}
+
+.ImgItemContainer {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+
+}
+
+.ImgItem {
+  width: 100%;
+  height: auto;
+  margin: auto;
+
+
+}
+
+.titleItem {
+  font-size: 7vw;
+  text-align: center;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px #333333;
+}
+
+.descripItem {
+  margin-top: 0;
+  font-size: 5vw;
+  line-height: 1;
+  color: #CCCCCC;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.precioItem {
+  margin-top: 0;
+  font-size: 1.5rem;
+  text-shadow: 1px 1px 1p #333333;
+}

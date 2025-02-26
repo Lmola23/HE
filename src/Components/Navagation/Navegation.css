@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+
+}
+
+.slider-menu {
+
+  overflow: hidden;
+  width: 100%;
+
+}
+
+.menu-container {
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.menu {
+  display: flex;
+  transition: transform 0.3s ease;
+  will-change: transform;
+  width: auto;
+}
+
+.menu-item {
+  width: auto;
+  height: auto;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-size: 8vw;
+  position: relative;
+}
+
+.menu-item.active {
+  font-weight: bold;
+}
+
+.active-indicator {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.menu-placeholder {
+  visibility: hidden;
+  height: 50px;
+}
+
+.sticky-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 90%;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-image-slice: 27 27 27 27;
+  border-image-width: 10px 10px 0px 10px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url('../../assets/borderBody.png');
+  box-shadow: 10px 10px 30px white;
+
+
+  -webkit-border-image-slice: 27 27 27 27;
+  -webkit-border-image-width: 10px 0px 10px 10px;
+  -webkit-border-image-outset: 0px 0px 0px 0px;
+  -webkit-border-image-repeat: repeat;
+  -webkit-border-image-source: url('../../assets/borderBody.png');
+
+  -moz-border-image-slice: 27 27 27 27;
+  -moz-border-image-width: 10px 0px 10px 10px;
+  -moz-border-image-outset: 0px 0px 0px 0px;
+  -moz-border-image-repeat: repeat;
+  -moz-border-image-source: url('../../assets/borderBody.png');
+
+  -o-border-image-slice: 27 27 27 27;
+  -o-border-image-width: 10px 0px 10px 10px;
+  -o-border-image-outset: 0px 0px 0px 0px;
+  -o-border-image-repeat: repeat;
+  -o-border-image-source: url('../../assets/borderBody.png');
+
+
+
+
+  background-image: url('../../assets/fondo.jpeg');
+}

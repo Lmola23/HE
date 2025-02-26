@@ -1,0 +1,54 @@
+.contact-section {
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-section h2 {
+  font-size: 3vw;
+  color: white;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+
+}
+
+.contact-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-item svg {
+  font-size: 3vw;
+  color: white;
+  margin-right: 10px;
+
+}
+
+.contact-label {
+  font-weight: bold;
+  margin-right: 5px;
+  color: white;
+  width: auto;
+}
+
+.contact-value {
+  color: white;
+}

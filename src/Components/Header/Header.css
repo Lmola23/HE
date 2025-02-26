@@ -1,0 +1,65 @@
+/* Contenedor */
+.container {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  position: relative;
+  margin: auto;
+}
+
+.imgPrensentacion {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.textInicial {
+  color: white;
+  font-size: 25vw;
+  text-align: center;
+  margin: 20px;
+}
+
+.h2Present {
+
+  border-image-slice: 27 27 27 27;
+  border-image-width: 8px 8px 8px 8px;
+  border-image-outset: 0px 0px 0px 0px;
+  border-image-repeat: repeat;
+  border-image-source: url('../../assets/borderBody.png');
+
+  -webkit-border-image-slice: 27 27 27 27;
+  -webkit-border-image-width: 8px 8px 8px 8px;
+  -webkit-border-image-outset: 0px 0px 0px 0px;
+  -webkit-border-image-repeat: repeat;
+  -webkit-border-image-source: url('../../assets/borderBody.png');
+
+  -moz-border-image-slice: 27 27 27 27;
+  -moz-border-image-width: 8px 8px 8px 8px;
+  -moz-border-image-outset: 0px 0px 0px 0px;
+  -moz-border-image-repeat: repeat;
+  -moz-border-image-source: url('../../assets/borderBody.png');
+
+  -o-border-image-slice: 27 27 27 27;
+  -o-border-image-width: 8px 8px 8px 8px;
+  -o-border-image-outset: 0px 0px 0px 0px;
+  -o-border-image-repeat: repeat;
+  -o-border-image-source: url('../../assets/borderBody.png');
+
+
+
+  color: white;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  font-size: 5vw;
+  padding: 20px;
+
+}
+
+h1 {
+  color: #EAEAEA;
+  text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.2);
+}
