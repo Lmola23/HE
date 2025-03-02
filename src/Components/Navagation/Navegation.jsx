@@ -134,7 +134,7 @@ function Navegacion() {
       </div>
 
       {/* Menú que se fija al hacer scroll */}
-      <div className={`slider-menu ${isSticky ? "sticky-menu" : ""}`} style={{ width: "100%" }}>
+      <div className={`slider-menu ${isSticky ? "sticky-menu" : ""}`} style={{ width: "100%", position: "sticky", top: 0, zIndex: 10 }}>
         <div
           className="menu-container"
           style={{ width: `${anchoContenedor}px` }}
