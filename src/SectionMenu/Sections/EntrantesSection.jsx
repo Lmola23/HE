@@ -29,6 +29,7 @@ export default function EntrantesSection() {
                     precio="1000$"
                     urlImg={images.entranteEntreme}
                     direccionFlex="row-reverse"
+                    disponible={false}
                 />
             </FadeInSection>
 
@@ -56,7 +57,7 @@ export default function EntrantesSection() {
                 <Item
                     title="Tostones Rellenos de Pulpo"
                     Descripcion="Crujientes tostones rellenos de pulpo tierno, sazonados con un toque de magia marina, directos desde la cocina de las sirenas de Hogwarts."
-                    precio="1000$"
+                    precio="1200$"
                     urlImg={images.entranteTostonPulpo}
                     direccionFlex="row-reverse"
                 />

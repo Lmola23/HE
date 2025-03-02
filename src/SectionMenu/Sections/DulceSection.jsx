@@ -28,6 +28,7 @@ export default function DulceSection() {
                     precio="550$"
                     urlImg={images.dulce}
                     direccionFlex="column-reverse"
+                    disponible={false}
                 />
             </FadeInSection>
         </Seccion>
