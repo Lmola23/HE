@@ -15,7 +15,7 @@ export default function SandwichSection() {
         <Item
           title="Sandwich de Queso"
           Descripcion=". Este sándwich de queso derretido te hará sentir como en un banquete en Hogwarts."
-          precio="280$"
+          precio="300$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
         />
@@ -25,7 +25,7 @@ export default function SandwichSection() {
         <Item
           title="Sandwich de Jamón"
           Descripcion="Este sándwich de queso derretido te hará sentir como en un banquete en Hogwarts."
-          precio="290$"
+          precio="300$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
         />
