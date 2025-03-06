@@ -56,7 +56,7 @@ export default function BebidasSection() {
         <Item
           title="Cerveza Beck's"
           Descripcion=""
-          precio="280$"
+          precio="260$"
           urlImg={images.bebidaCervezaBeck}
           direccionFlex="row"
         />

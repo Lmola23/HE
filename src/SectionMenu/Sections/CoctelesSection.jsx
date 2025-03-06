@@ -76,7 +76,7 @@ export default function CoctelesSection() {
         <Item
           title="Gin Tonic"
           Descripcion="Un cóctel mágico y elegante, que combina la frescura del gin y la tónica con un toque encantador de Hogwarts, perfecto para disfrutar en el Gran Comedor."
-          precio="700$"
+          precio="600$"
           urlImg={images.coctelGinTonic}
           direccionFlex="row-reverse"
         />
@@ -119,16 +119,6 @@ export default function CoctelesSection() {
           precio="500$"
           urlImg={images.espreso}
           direccionFlex="column-reverse"
-        />
-      </FadeInSection>
-
-      <FadeInSection>
-        <Item
-          title="Pantera Rosa"
-          Descripcion="Una bebida mágica y seductora, que combina la suavidad de la crema y el licor de fresa con un toque encantador de Hogwarts, perfecta para disfrutar en el Gran Comedor."
-          precio="600$"
-          urlImg={images.coctelPanteraRosa}
-          direccionFlex="row"
         />
       </FadeInSection>
 
