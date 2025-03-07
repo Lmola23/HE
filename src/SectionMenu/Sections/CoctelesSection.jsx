@@ -26,7 +26,7 @@ export default function CoctelesSection() {
         <Item
           title="Toro Bravo"
           Descripcion="Una bebida mágica y poderosa, que combina el vigor del tequila con un toque enérgico de cítricos y especias, perfecta para disfrutar en el Gran Comedor de Hogwarts."
-          precio="900$"
+          precio="500$"
           urlImg={images.coctelToroBravo}
           direccionFlex="row"
         />
