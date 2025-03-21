@@ -12,7 +12,7 @@ function Navegacion() {
   const referenciaMenu = useRef(null);
   const referenciaNavegacion = useRef(null);
 
-  const elementos = ["Cafés", "Dulces", "Hamburguesas", "Sandwich", "HotDog", "Entrantes", "Pizzas", "Espaguetis", "Batidos", "Malteadas", "Cócteles", "Bebidas"];
+  const elementos = ["Cafés", "Dulces", "Hamburguesas", "Sandwich", "HotDog", "Entrantes", "Pizzas", "Espaguetis", "Batidos", "Malteadas", "Bebidas"];
 
   const elementosVisibles = 4;
   const anchoElemento = 160;
