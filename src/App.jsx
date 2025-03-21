@@ -66,7 +66,6 @@ function App() {
           <EspaguetisSection />
           <BatidosSection />
           <MalteadaSection />
-          <CoteclesSection />
           <BebidasSection />
           <Footer />
         </>
